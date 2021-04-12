@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:link { text-decoration: none; color:rgb(248, 197, 138);}
+a:visited { text-decoration: none; color:rgb(68, 68, 68);}
+a:hover { text-decoration: none; color:rgb(252, 127, 69);}
+a:active { text-decoration: none; color:rgb(68, 68, 68);}
+
+body{
+    background-color: #EBEBD3;
+}
+
+h1{
+  font-size: 2.6em;
+  font-family: 'Cantarell', sans-serif;
+  color: rgb(68, 68, 68);
+  }
+  
+  h2{
+  font-size: 1.5em;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 600;
+  color: #083D77;;
+  }
+  
+  h3{
+  font-size: 1.8em;
+  font-family: 'Cantarell', sans-serif;
+  color: #083D77;;
+  }
+  
+  p{
+  font-size: 1.3em;
+  font-family: 'Oxygen', sans-serif;
+  color: #083D77;
+  }
+  
+  nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5%;
+      font-family: 'Oxygen', sans-serif; 
+      font-size: 1em;
+      list-style-type: none; 
+    } 
+
+  
+  span{
+      color: #F95638;
+  }
+
+  .about-us{
+    display: flex;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 70vh;
+    padding-left: 2%;
+  }
+
+  .block{
+    width: 200px;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+    background:  #F95638;
+  }
+
+  .block2{
+    width: 10px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+    background:  #F95638;
+    position: absolute;
+    top: 58%;
+    right: 20%;
+
+  }
+
+  main{
+    display: grid;
+    min-height: 60vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .selina-image{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+    
+  }
+
+  .elyana-image{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+  }
+
+  section.links{
+    text-align: center;
+  }
+
+  section.links a{
+    color: #EE964B;
+    font-weight: bold;
+  }
