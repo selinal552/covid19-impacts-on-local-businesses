@@ -1,50 +1,187 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="chinatown.css">
-    <title>The Impact of COVID-19: Asian Garden Restaurant in Chinatown </title>
-  </head>
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); 
 
-  <body>  
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"></a><strong>Home</strong></li>
-                <li><a href="aboutus.html">About Us</a></li>
-            </ul>
-        </nav>
-        <div class="ag-name">
-            <h1>Asian Garden Restaurant</h1>
-        </div>
-        <div class="ag-address">
-            <h1>28 Harrison Ave, Boston, MA 02111-2025</h1>
-        </div>
-    </header>
-    <main>
-       <div class="introduction">
-           <h2> Asian Garden is a seafood restaurant on 28 Harrison Ave in Boston’s Chinatown. Although it is famous for seafood, like walnut shrimp, lobster with ginger and scallions, deep fried flounder, the restaurant also serves traditional Cantonese, Hong Kong, and Szechuan cuisines. </h2>
-           <p> When I walked inside Asian Garden on a late Friday afternoon, I saw people eating late lunches and early dinners around round tables. Colorful dividers were placed between tables to promote social distancing. A Chinese drama blared from a small, propped television. The bell notifying incoming customers enter would occasionally ring. </p>
-           <p> However, business was still stagnant and it was clear that the small family-owned restaurant was struggling to keep up against the brunt of the pandemic and the increasing rise of Asian hate crimes. </p>
-       </div> 
-       <div class="profile">
-            <h1> About the Business Owner </h1>
-            <p> The owner's name of Asian Garden is Ka Wa. He immigrated from Hong Kong in 1993. Shortly after, he started his business and has been working with his family ever since.</p>
-            <p> When I asked him why he started his restaurant, he responded <span>“Because it is my passion”</span>.</p>
-            <p> During our phone interview, he kindly shared his experiences with me. Occasionally, he would call out an order for the kitchen to take. I could tell he was a busy man who worked extremely hard. </p>
-       </div>
-       <div class="impact">
-        <h1> Struggling with Multiple Pandemics </h1>
-        <p> During our phone interview, KaWa noted that there was a <span>50%</span> decrease in business due to the pandemic</p>
-        <p> Although the state government provided funding to keep workers in local businesses employed through the Paycheck Protection Program (PPP), there was still not enough business to hire workers back. </p>
-        <p>KaWa believes that the rise of hate crimes against Asian-Americans due to broader rhetoric about Asian-Americans being responsible for carrying the disease has contributed to the loss in revenue. </p> 
-        <p> In addition, KaWa has encountered acts of discrimination. People would call the restaurant to direct racial slurs and expletives at the owner. They would also order food but purposely fail to pick it up, which resulted in wasted food and expenses.</p>
-        <p> KaWa believes that Chinatown has become increasingly dangerous. There were <span>three attempted robberies</span> at the restaurant in the past year and all the windows would be smashed. </p>
-       </div> 
-    
-    </main>
-</body>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-<footer></footer>
+a:link { text-decoration: none; color:rgb(68, 68, 68);}
+a:visited { text-decoration: none; color:rgb(68, 68, 68);}
+a:hover { text-decoration: none; color:rgb(68, 68, 68);}
+a:active { text-decoration: none; color:rgb(68, 68, 68);}
 
-</html>
+body{
+    background-color: #EBEBD3;
+}
+
+
+.container{
+    display: grid;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60vh;
+    padding-left: 5%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 1em;
+    list-style-type: none; 
+  } 
+
+span{
+    color: #F95638;
+}
+
+
+.introduction{
+    display: grid;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    padding: 5%;
+}
+
+.overview-part-1{
+    display: grid;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.overview-part-2{
+    display: grid;
+    min-height: 90vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.overview-part-3{
+    display: grid;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+h1{
+font-size: 3em;
+font-family: 'Cantarell', sans-serif;
+color: rgb(68, 68, 68);
+}
+
+h2{
+font-size: 2em;
+font-family: 'Cantarell', sans-serif;
+font-weight: 400;
+color: #083D77;;
+}
+
+h3{
+font-size: 1.8em;
+font-family: 'Cantarell', sans-serif;
+color: #083D77;;
+}
+
+p{
+font-size: 1.5em;
+font-family: 'Oxygen', sans-serif;
+color: #083D77;
+}
+
+.stats-set1{
+    display: grid;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+
+.tableauPlaceholder {
+   max-width: 100%;
+   max-height:100%;
+   margin: auto;
+   size: 40%;
+
+}
+
+blockquote{
+    line-height:2em;
+    font-size: 0.9em;
+    font-family: 'Oxygen', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #f4d45ebd;
+    max-width: 100%;
+    padding: 10%;
+    margin: 10%;
+
+}
+
+.overview{
+    margin: auto;
+    max-width: 80%;
+    line-height: 3em;
+}
+
+.cta-section {
+    margin: auto;
+    max-width: 80%;
+    line-height: 3em;
+    margin-bottom: 5%;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+a:visited .chinatown-button{
+    text-decoration: none;
+}
+
+.chinatown-button{
+    font-size: 1.3em;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #EE964B;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid #f3e7ba;
+}
+
+.chinatown-button:hover{
+    background-color: #f3ba88;
+}
+
+.revere-button{
+    font-size: 1.3em;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #EE964B;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid #f3e7ba;
+}
+
+.revere-button:hover{
+    background-color: #f3ba88;
+}
+
+
+
