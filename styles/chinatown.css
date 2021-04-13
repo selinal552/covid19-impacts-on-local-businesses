@@ -17,7 +17,7 @@ body{
 }
 
 h1{
-font-size: 3em;
+font-size: 2.6em;
 font-family: 'Cantarell', sans-serif;
 color: rgb(68, 68, 68);
 }
@@ -36,7 +36,7 @@ color: #083D77;;
 }
 
 p{
-font-size: 1.5em;
+font-size: 1.3em;
 font-family: 'Oxygen', sans-serif;
 color: #083D77;
 }
@@ -51,12 +51,14 @@ nav ul {
     list-style-type: none; 
   } 
 
+
+
 span{
     color: #F95638;
 }
 
 .ag-name{
-    display: grid;
+    display: flex;
     min-height: 50vh;
     text-align: left;
     place-items: center;
@@ -78,7 +80,7 @@ span{
 
 .introduction{
     display: grid;
-    min-height: 100vh;
+    min-height: 70vh;
     text-align: left;
     place-items: center;
     max-width: 70%;
@@ -87,7 +89,7 @@ span{
 
 .profile{
     display: grid;
-    min-height: 100vh;
+    min-height: 60vh;
     text-align: left;
     place-items: center;
     max-width: 60%;
@@ -103,3 +105,69 @@ span{
     margin: auto;
 }
 
+
+li{
+    font-size: 1.3em;
+    font-family: 'Oxygen', sans-serif;
+    color: #083D77;
+    padding-bottom: 2%;
+    list-style: none;
+}
+
+.support{
+    display: grid;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.agowner{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.inside1{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+}
+
+.takeout{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+}
+
+figure{
+    font-size: 0.7em;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+.foo {
+    float: left;
+    width: 300px;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+  }
+
+  .blue {
+    background: #EE964B;
+  }
+
+
+  .support-AG{
+    font-size: 1em;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #F4D35E;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #f3e7ba;
+  }
