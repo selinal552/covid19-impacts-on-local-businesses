@@ -16,6 +16,11 @@ body{
     background-color: #EBEBD3;
 }
 
+@media only screen and (min-width: 800px){
+    h1{
+     font-size: 4em;
+    }
+}
 
 .container{
     display: grid;
@@ -125,7 +130,7 @@ color: #083D77;
 }
 
 p{
-font-size: 1.5em;
+font-size: 1.3em;
 font-family: 'Oxygen', sans-serif;
 color: #083D77;
 }
