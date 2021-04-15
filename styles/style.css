@@ -131,6 +131,12 @@ font-weight: bold;
 color: #083D77;
 }
 
+h4{
+font-size: 1.8em;
+font-family: 'Cantarell', sans-serif;
+color: #F95638;
+}
+
 p{
 font-size: 1.1em;
 font-family: 'Oxygen', sans-serif;
@@ -161,6 +167,7 @@ blockquote{
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     background-color: #f4d45ebd;
+    color:rgb(68, 68, 68);
     max-width: 100%;
     padding: 10%;
     margin: 10%;
@@ -343,7 +350,15 @@ figure{
     background: #EE964B;
   }
 
-  
+  .poc-statistics{
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 5%;
+    font-size: 0.8em;
+    
+}
 
 /* asian garden restaurant specific css */
 .foo-ag {
