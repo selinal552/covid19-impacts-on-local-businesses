@@ -16,12 +16,6 @@ body{
     background-color: #EBEBD3;
 }
 
-@media only screen and (min-width: 800px){
-    h1{
-     font-size: 4em;
-    }
-}
-
 .container{
     display: grid;
     min-height: 85vh;
@@ -66,13 +60,13 @@ nav ul {
     justify-content: space-between;
     padding: 5%;
     font-family: 'Oxygen', sans-serif; 
-    font-size: 0.9em;
+    font-size: 0.7em;
+    font-weight: bold;
     list-style-type: none; 
     color:rgb(68, 68, 68);
   } 
 
   .nav-links{
-      font-size: 1em;
       font-weight: bold;
   }
 
@@ -124,7 +118,7 @@ color: rgb(68, 68, 68);
 
 
 h2{
-font-size: 1.1em;
+font-size: 1.3em;
 font-family: 'Cantarell', sans-serif;
 font-weight: bold;
 color: #083D77;
@@ -133,6 +127,7 @@ color: #083D77;
 h3{
 font-size: 1.8em;
 font-family: 'Cantarell', sans-serif;
+font-weight: bold;
 color: #083D77;
 }
 
@@ -270,6 +265,7 @@ a:visited .chinatown-button{
     place-items: center;
     max-width: 60%;
     margin: auto;
+    margin-top: 5%;
 }
 
 blockquote.restaurant-blockquote{
@@ -284,8 +280,8 @@ blockquote.restaurant-blockquote{
     margin: 10%;
   }
 
-  li{
-    font-size: 1.3em;
+li{
+    font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
     color: #083D77;
     padding-bottom: 5%;
@@ -298,6 +294,7 @@ blockquote.restaurant-blockquote{
     place-items: center;
     max-width: 60%;
     margin: auto;
+    margin-top: 5%;
 }
 
 .agowner{
@@ -445,7 +442,15 @@ figure{
    h2{
         font-size: 1.5em;
     }
+
+    nav ul {
+        font-size: 0.9em;
+      } 
     
+    li{
+        font-size: 1.2em;
+      }
+
     }
 
 
@@ -460,8 +465,17 @@ figure{
         font-size: 1.8em;
     }
 
+    h3{
+        font-size: 2em;
+    }
+
     p{
         font-size: 1.6em;
+       }
+    
+    li{
+        font-size: 1.6em;
+        max-width: 90%;
        }
     
      /*change to about us*/  
