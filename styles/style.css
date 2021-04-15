@@ -124,9 +124,9 @@ color: rgb(68, 68, 68);
 
 
 h2{
-font-size: 2em;
+font-size: 1.1em;
 font-family: 'Cantarell', sans-serif;
-font-weight: 400;
+font-weight: bold;
 color: #083D77;
 }
 
@@ -223,7 +223,155 @@ a:visited .chinatown-button{
     background-color: #f3ba88;
 }
 
+/* restaurant specific css */
+.ag-name{
+    display: flex;
+    min-height: 50vh;
+    text-align: left;
+    place-items: center;
+    max-width: 70vh;
+    padding-left: 2%;
+}
 
+.ag-address{
+    display: grid;
+    min-height: 50vh;
+    text-align: left;
+    place-items: left;
+    max-width: 60vh;
+    padding-left: 10%;
+    font-size: 0.5em;
+    background-color: #EE964B;
+    
+}
+
+.introduction{
+    display: grid;
+    min-height: 70vh;
+    text-align: left;
+    place-items: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.profile{
+    display: grid;
+    min-height: 60vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.impact{
+    display: grid;
+    min-height: 60vh;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+blockquote.restaurant-blockquote{
+    line-height:2em;
+    font-size: 0.9em;
+    font-family: 'Oxygen', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #f4d45ebd;
+    max-width: 100%;
+    padding: 10%;
+    margin: 10%;
+  }
+
+  li{
+    font-size: 1.3em;
+    font-family: 'Oxygen', sans-serif;
+    color: #083D77;
+    padding-bottom: 5%;
+    list-style: none;
+}
+
+.support{
+    display: grid;
+    text-align: left;
+    place-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.agowner{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.inside1{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+}
+
+.takeout{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+}
+
+figure{
+    font-size: 0.7em;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+.support-AG{
+    font-size: 1em;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #F4D35E;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid #f3e7ba;
+  }
+
+  .blue {
+    background: #EE964B;
+  }
+
+  
+
+/* asian garden restaurant specific css */
+.foo-ag {
+    float: left;
+    width: 300px;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+  }
+
+
+/* el pelon specific css */
+
+.helpEB{
+    font-size: 1em;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #F4D35E;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #f3e7ba;
+  }
+
+
+  .foo-eb {
+    float: left;
+    width: 300px;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+  }
 
 /* about us specific css */
 .about-us{
@@ -293,13 +441,23 @@ a:visited .chinatown-button{
     p{
         font-size: 1.2em;
        }
+    
+   h2{
+        font-size: 1.5em;
     }
+    
+    }
+
 
   @media only screen and (min-width: 800px){
     h1.front-page-header{
      font-size: 3.5em;
      min-height: 100vh;
      max-width: 100%;
+    }
+
+    h2{
+        font-size: 1.8em;
     }
 
     p{

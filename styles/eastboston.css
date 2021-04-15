@@ -103,7 +103,7 @@ span{
     margin: auto;
 }
 
-blockquote{
+blockquote.restaurant-blockquote{
   line-height:2em;
   font-size: 0.9em;
   font-family: 'Oxygen', sans-serif;
@@ -178,7 +178,7 @@ figure{
   }
 
 
-.foo {
+.foo-eb {
     float: left;
     width: 300px;
     height: 5px;
