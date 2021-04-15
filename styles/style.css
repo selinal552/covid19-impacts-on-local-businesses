@@ -218,6 +218,11 @@ a:visited .chinatown-button{
     background-color: #f3ba88;
 }
 
+div.to-ag-video{
+    padding-top: 5%;
+    text-align: center;
+}
+
 /* restaurant specific css */
 .ag-name{
     display: flex;
