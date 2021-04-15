@@ -282,11 +282,12 @@ div.to-restaurant-video{
 
 blockquote.restaurant-blockquote{
     line-height:2em;
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Oxygen', sans-serif;
     font-style: italic;
     text-align: center;
     background-color: #f4d45ebd;
+    color:rgb(68, 68, 68);
     max-width: 100%;
     padding: 10%;
     margin: 10%;
