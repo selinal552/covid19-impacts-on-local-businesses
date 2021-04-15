@@ -51,6 +51,11 @@ h1{
       list-style-type: none; 
     } 
 
+
+  li.nav-links{
+    font-size: 1.3em;
+    font-weight: bold;
+  }
   
   span{
       color: #F95638;
@@ -85,9 +90,9 @@ h1{
 
   }
 
-  main{
+  main.aboutus-main{
     display: grid;
-    min-height: 60vh;
+    min-height: 100vh;
     text-align: left;
     place-items: center;
     max-width: 60%;

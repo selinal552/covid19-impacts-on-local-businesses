@@ -71,6 +71,11 @@ nav ul {
     color:rgb(68, 68, 68);
   } 
 
+  .nav-links{
+      font-size: 1em;
+      font-weight: bold;
+  }
+
 span{
     color: #F95638;
 }
@@ -132,7 +137,7 @@ color: #083D77;
 }
 
 p{
-font-size: 1.3em;
+font-size: 1.1em;
 font-family: 'Oxygen', sans-serif;
 color: #083D77;
 }
@@ -220,15 +225,105 @@ a:visited .chinatown-button{
 
 
 
-@media only screen and (min-width: 800px){
-    h1{
+/* about us specific css */
+.about-us{
+    display: flex;
+    min-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 70vh;
+    padding-left: 2%;
+  }
+
+  .block{
+    width: 200px;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+    background:  #F95638;
+  }
+
+  .block2{
+    width: 10px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 2%;
+    background:  #F95638;
+    position: absolute;
+    top: 58%;
+    right: 20%;
+
+  }
+
+  .selina-image{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+    
+  }
+
+  .elyana-image{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+    border: 2px solid #EE964B;
+  }
+
+  main.aboutus-main{
+    display: grid;
+    max-height: 100vh;
+    text-align: left;
+    place-items: center;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  section.doc-links{
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 600px){
+    p{
+        font-size: 1.2em;
+       }
+    }
+
+  @media only screen and (min-width: 800px){
+    h1.front-page-header{
      font-size: 3.5em;
      min-height: 100vh;
      max-width: 100%;
     }
 
     p{
-        font-size: 2em;
+        font-size: 1.6em;
        }
+    
+     /*change to about us*/  
+    div.bios{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 5%;
+    }
+
+    section.selina h1{
+        font-size: 2.5em;
+    }
+
+    section.elyana h1{
+        font-size: 2.5em;
+    }
 }
+
+
+
+
 
