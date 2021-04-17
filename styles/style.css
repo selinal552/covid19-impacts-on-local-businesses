@@ -16,6 +16,10 @@ body{
     background-color: #EBEBD3;
 }
 
+.header-image{
+    max-width: 80%;
+}
+
 .container{
     display: grid;
     min-height: 85vh;
@@ -37,12 +41,13 @@ body{
 
 .foo2{
     width: 10px;
-    height: 200px;
+    height: 300px;
     border: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 2%;
     background:  #F95638;
     position: absolute;
-    bottom: 0;
+    top: 75%;
+    right: 10%
 }
 
 .foo3{
@@ -80,15 +85,16 @@ span{
     min-height: 100vh;
     text-align: left;
     place-items: center;
+    max-width: 70%;
+    margin: auto;
     padding: 5%;
 }
 
 .overview-part-1{
     display: grid;
-    min-height: 100vh;
     text-align: left;
     place-items: center;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -97,16 +103,16 @@ span{
     min-height: 90vh;
     text-align: left;
     place-items: center;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
 .overview-part-3{
     display: grid;
-    min-height: 100vh;
+    min-height: 90vh;
     text-align: left;
     place-items: center;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -145,10 +151,10 @@ color: #083D77;
 
 .stats-set1{
     display: grid;
-    min-height: 100vh;
+    min-height: 70vh;
     text-align: left;
     place-items: center;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -163,15 +169,20 @@ color: #083D77;
 
 blockquote{
     line-height:2em;
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Oxygen', sans-serif;
-    text-align: center;
-    background-color: #f4d45ebd;
+    text-align: left;
     color:rgb(68, 68, 68);
     max-width: 100%;
-    padding: 10%;
-    margin: 10%;
+    padding: 5%;
+    margin: 1%;
 
+}
+
+.quotemark{
+    max-height: 50px;
+    position: relative;
+    top:auto;
 }
 
 .overview{
@@ -472,6 +483,36 @@ figure{
         font-size: 1.2em;
       }
 
+    .container{
+        display: flex;
+    }
+
+    .header-image{
+        max-width: 90%;
+        object-position: 80px;
+    }
+
+    blockquote{
+        font-size: 1.4em;
+    }
+
+    .to-restaurant-video{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    min-height: 70vh;
+    text-align: left;
+    place-items: center;
+    max-width: 70%;
+    margin: auto;
+    }
+
+    p.video-description{
+    color:rgb(252, 127, 69);
+    font-size: 2.5em;
+    font-weight: bold;
+    transform: rotate(35deg);
+    }
     }
 
 
@@ -480,6 +521,13 @@ figure{
      font-size: 3.5em;
      min-height: 100vh;
      max-width: 100%;
+    }
+
+    .header-image{
+        position: absolute;
+        max-width: 50%;
+        right: 80px; 
+        bottom: 10px;
     }
 
     h2{
