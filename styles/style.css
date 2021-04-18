@@ -12,6 +12,9 @@ a:visited { text-decoration: none; color:rgb(68, 68, 68);}
 a:hover { text-decoration: none; color:rgb(252, 127, 69);}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
 
+
+/* universal + home page css */
+
 body{
     background-color: #EBEBD3;
 }
@@ -236,12 +239,12 @@ a:visited .chinatown-button{
     background-color: #f3ba88;
 }
 
-div.to-restaurant-video{
-    padding-top: 5%;
+/* restaurant specific css */
+
+.to-restaurant-video{
+    padding-top: 10%;
     text-align: center;
 }
-
-/* restaurant specific css */
 
 .restaurant-arrow{
     visibility: hidden;
@@ -251,7 +254,7 @@ div.to-restaurant-video{
     visibility: hidden;
 }
 
-.ag-name{
+.name{
     display: flex;
     min-height: 50vh;
     text-align: left;
@@ -260,7 +263,7 @@ div.to-restaurant-video{
     padding-left: 2%;
 }
 
-.ag-address{
+.address{
     display: grid;
     min-height: 50vh;
     text-align: left;
@@ -346,7 +349,7 @@ li{
     margin-top: 5%;
 }
 
-.agowner{
+.owner{
     display:inline;
     width: 70%;
     height: auto;
@@ -412,7 +415,13 @@ figure{
 
 
 .takeout-arrow-ag{
-    visibility: hidden;
+    display: none;
+}
+
+.inside-caption{
+    display: block;
+    font-size: 1.1em;
+    color: #083D77;
 }
 
 /* asian garden restaurant specific css */
@@ -540,6 +549,8 @@ figure{
         font-size: 1.4em;
     }
 
+    /* restaurant specific media query */
+
     .to-restaurant-video{
     display: flex;
     justify-content: space-around;
@@ -558,8 +569,18 @@ figure{
     transform: rotate(-15deg);
     }
 
+    .inside-caption{
+        display: block;
+        position: relative;
+        left: 60%;
+        bottom: 30vh;
+        font-size: 1.2em;
+        transform: rotate(20deg);
+        color:rgb(252, 127, 69);
+    }
+
     .take-out-caption{
-        visibility:visible;
+        display: block;
         position: relative;
         max-width: 50%;
         font-size: 1.3em;
@@ -571,13 +592,15 @@ figure{
     }
 
     .takeout-arrow-ag{
-        visibility:visible;
+        display: inline;
         position: relative;
         bottom: 140px;
         max-width: 20%;
         left: 50%;
         transform: rotate(180deg);
     }
+
+
     
     }
 
@@ -612,9 +635,36 @@ figure{
         font-size: 1.6em;
         max-width: 90%;
        }
-    
+       
+    .inside-caption{
+        font-size: 1.5em;
+    }
+
+    .take-out-caption{
+        position: relative;
+        max-width: 50%;
+        font-size: 2em;
+        left: 85%;
+        bottom: 300px;
+        transform: rotate(20deg);
+        color: rgb(252, 127, 69);
+    }
+
+    .takeout-arrow-ag{
+        display: inline;
+        position: relative;
+        bottom: 300px;
+        left: 50%;
+        transform: rotate(180deg);
+    }
+
+    figcaption{
+        font-size: 2em;
+        color: #083D77;
+    }
+
      /*change to about us*/  
-    div.bios{
+     div.bios{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -629,28 +679,12 @@ figure{
         font-size: 2.5em;
     }
 
-    .take-out-caption{
-        position: relative;
-        max-width: 50%;
-        font-size: 2em;
-        left: 85%;
-        bottom: 300px;
-        transform: rotate(20deg);
-        color: rgb(252, 127, 69);
-
-    }
-
-    .takeout-arrow-ag{
-        visibility:visible;
-        position: relative;
-        bottom: 300px;
-        left: 50%;
-        transform: rotate(180deg);
-    }
-
 }
 
 @media only screen and (min-width: 1000px){
+
+
+    /* restaurant specific css */
     .restaurant-image{
         position: absolute;
         max-width: 40%;
@@ -706,17 +740,23 @@ figure{
     }
 
     .takeout-arrow-ag{
-        visibility: visible;
+        display: inline;
         position: relative;
         bottom: 300px;
         left: 50%;
         transform: rotate(180deg);
+    }
+
+    .inside-caption{
+        font-size: 2em;
     }
     
 }
 
 
 @media only screen and (min-width: 1200px){
+
+    /* restaurant specific css */
 .restaurant-image{
     position: absolute;
     max-width: 40%;
@@ -764,7 +804,7 @@ figure{
 }
 
 .takeout-arrow-ag{
-   visibility: visible;
+    display: inline;
     position: relative;
     bottom: 300px;
     left: 50%;
