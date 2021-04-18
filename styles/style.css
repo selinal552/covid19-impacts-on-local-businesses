@@ -72,6 +72,13 @@ body{
     right: 60%;
 }
 
+.foo5{
+    width: 50px;
+    height: 10px;
+    position: relative;
+    background:  rgb(252, 127, 69);
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -93,14 +100,13 @@ span{
 }
 
 
-.introduction{
+.homepage-introduction{
     display: grid;
-    min-height: 100vh;
     text-align: left;
     place-items: center;
     max-width: 70%;
     margin: auto;
-    padding: 5%;
+    padding: 2%;
 }
 
 .overview-part-1{
@@ -291,7 +297,7 @@ a:visited .chinatown-button{
 
 .introduction{
     display: grid;
-    min-height: 70vh;
+    min-height: 60vh;
     text-align: left;
     place-items: center;
     max-width: 70%;
@@ -308,7 +314,8 @@ a:visited .chinatown-button{
 }
 
 .star-ag{
-    display: inline;
+    display: inline-block;
+    padding: 0;
     position: relative;
     width: 15%;
     bottom: 30vh;
@@ -378,7 +385,7 @@ li{
 
 .takeout{
     width: 70%;
-    height: auto;
+    text-align: center;
     margin: auto;
     padding: 5%;
     border: 2px solid #EE964B;
@@ -412,12 +419,12 @@ figure{
   }
 
   .poc-statistics{
-    display: block;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
     max-width: 100%;
     margin: auto;
     padding: 5%;
-    font-size: 0.8em;
+    font-size: 0.6em;
     
 }
 
@@ -426,7 +433,7 @@ figure{
 }
 
 .eb-restaurant-image{
-    max-width: 80%;
+    max-width: 100%;
 }
 
 
@@ -434,11 +441,20 @@ figure{
     display: none;
 }
 
+.take-out-caption{
+    display: block;
+    max-width: 100%;
+    font-size: 1.3em;
+    margin-bottom: 3%;
+
+}
+
 .inside-caption{
     display: block;
     font-size: 1.1em;
     color: #083D77;
 }
+
 
 /* asian garden restaurant specific css */
 .foo-ag {
@@ -541,7 +557,7 @@ figure{
        }
     
    h2{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     h3{
@@ -576,24 +592,27 @@ figure{
     justify-content: space-around;
     flex-direction: row-reverse;
     min-height: 70vh;
-    text-align: left;
+    text-align: center;
     place-items: center;
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
+    position: relative;
+    right: 20vh;
     }
 
     p.video-description{
     color:rgb(252, 127, 69);
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    transform: rotate(-15deg);
+    position: relative;
+    left: 120px;
     }
 
     .inside-caption{
         position: relative;
-        left: 50%;
-        bottom: 30vh;
-        font-size: 1.2em;
+        right: 40%;
+        font-size: 1.3em;
+        font-weight: bold;
         color:rgb(252, 127, 69);
     }
 
@@ -601,11 +620,12 @@ figure{
         display: block;
         position: relative;
         max-width: 50%;
-        font-size: 1.3em;
+        font-size: 1.2em;
         left: 85%;
         bottom: 150px;
         transform: rotate(20deg);
         color: rgb(252, 127, 69);
+        margin-bottom: 0;
 
     }
 
@@ -617,8 +637,6 @@ figure{
         left: 50%;
         transform: rotate(180deg);
     }
-
-
     
     }
 
@@ -653,9 +671,19 @@ figure{
         font-size: 1.6em;
         max-width: 90%;
        }
+    
+     p.video-description{
+        color:rgb(252, 127, 69);
+        font-size: 1.5em;
+        font-weight: bold;
+        left: 20vh;
+        }
+    
        
     .inside-caption{
-        font-size: 1.5em;
+        font-size: 3em;
+        position: relative;
+        bottom: 25vh;
     }
 
     .take-out-caption{
@@ -681,6 +709,10 @@ figure{
         color: #083D77;
     }
 
+    .poc-statistics{
+        font-size: 0.9em;
+    }
+
      /*change to about us*/  
      div.bios{
         display: flex;
@@ -703,6 +735,16 @@ figure{
 
 
     /* restaurant specific css */
+
+    p.video-description{
+        color:rgb(252, 127, 69);
+        font-size: 1.5em;
+        font-weight: bold;
+        position: relative;
+        left: 40vh;
+        font-size: 3em;
+        }
+
     .restaurant-image{
         position: absolute;
         max-width: 40%;
@@ -766,7 +808,7 @@ figure{
     }
 
     .inside-caption{
-        font-size: 2em;
+        font-size: 3em;
     }
     
 }
