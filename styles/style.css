@@ -375,6 +375,8 @@ figure{
     font-family: 'Oxygen', sans-serif;
     color: rgb(68, 68, 68);
     text-align: center;
+    margin-inline-end: 0px;
+    margin-block-end: 0em;
 }
 
 .rest-image-caption{
@@ -570,12 +572,10 @@ figure{
     }
 
     .inside-caption{
-        display: block;
         position: relative;
-        left: 60%;
+        left: 50%;
         bottom: 30vh;
         font-size: 1.2em;
-        transform: rotate(20deg);
         color:rgb(252, 127, 69);
     }
 
