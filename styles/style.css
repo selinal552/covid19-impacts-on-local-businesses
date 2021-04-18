@@ -20,14 +20,6 @@ body{
     max-width: 80%;
 }
 
-.restaurant-arrow{
-    visibility: hidden;
-}
-
-.restaurant-arrow-ag{
-    visibility: hidden;
-}
-
 .container{
     display: grid;
     min-height: 85vh;
@@ -250,6 +242,15 @@ div.to-restaurant-video{
 }
 
 /* restaurant specific css */
+
+.restaurant-arrow{
+    visibility: hidden;
+}
+
+.restaurant-arrow-ag{
+    visibility: hidden;
+}
+
 .ag-name{
     display: flex;
     min-height: 50vh;
@@ -287,6 +288,22 @@ div.to-restaurant-video{
     place-items: center;
     max-width: 60%;
     margin: auto;
+}
+
+.star-ag{
+    display: inline;
+    position: relative;
+    width: 15%;
+    bottom: 30vh;
+    left: 30%;
+}
+
+.star-ag2{
+    display: inline;
+    position: relative;
+    width: 15%;
+    bottom: 25vh;
+    right: 30%;
 }
 
 .impact{
@@ -330,9 +347,9 @@ li{
 }
 
 .agowner{
-    width: 50%;
+    display:inline;
+    width: 70%;
     height: auto;
-    margin: auto;
 }
 .inside1{
     width: 60%;
@@ -391,6 +408,11 @@ figure{
 
 .eb-restaurant-image{
     max-width: 80%;
+}
+
+
+.takeout-arrow-ag{
+    visibility: hidden;
 }
 
 /* asian garden restaurant specific css */
@@ -487,6 +509,7 @@ figure{
     text-align: center;
   }
 
+
   @media only screen and (min-width: 600px){
     p{
         font-size: 1.2em;
@@ -520,7 +543,7 @@ figure{
     .to-restaurant-video{
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: row-reverse;
     min-height: 70vh;
     text-align: left;
     place-items: center;
@@ -530,20 +553,30 @@ figure{
 
     p.video-description{
     color:rgb(252, 127, 69);
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
-    transform: rotate(35deg);
+    transform: rotate(-15deg);
     }
 
-    .ag-take-out-caption{
+    .take-out-caption{
+        visibility:visible;
         position: relative;
         max-width: 50%;
-        font-size: 1.6em;
+        font-size: 1.3em;
         left: 85%;
-        bottom: 330px;
+        bottom: 150px;
         transform: rotate(20deg);
         color: rgb(252, 127, 69);
 
+    }
+
+    .takeout-arrow-ag{
+        visibility:visible;
+        position: relative;
+        bottom: 140px;
+        max-width: 20%;
+        left: 50%;
+        transform: rotate(180deg);
     }
     
     }
@@ -594,6 +627,25 @@ figure{
 
     section.elyana h1{
         font-size: 2.5em;
+    }
+
+    .take-out-caption{
+        position: relative;
+        max-width: 50%;
+        font-size: 2em;
+        left: 85%;
+        bottom: 300px;
+        transform: rotate(20deg);
+        color: rgb(252, 127, 69);
+
+    }
+
+    .takeout-arrow-ag{
+        visibility:visible;
+        position: relative;
+        bottom: 300px;
+        left: 50%;
+        transform: rotate(180deg);
     }
 
 }
@@ -652,6 +704,14 @@ figure{
         right: 45%;
         transform: rotate(10deg);
     }
+
+    .takeout-arrow-ag{
+        visibility: visible;
+        position: relative;
+        bottom: 300px;
+        left: 50%;
+        transform: rotate(180deg);
+    }
     
 }
 
@@ -683,7 +743,7 @@ figure{
     position: absolute;
     right: 45%;
     top: 50%;
-    font-size: 4em;
+    font-size: 5em;
     color:rgb(252, 127, 69);
 }
 
@@ -704,7 +764,7 @@ figure{
 }
 
 .takeout-arrow-ag{
-    visibility: visible;
+   visibility: visible;
     position: relative;
     bottom: 300px;
     left: 50%;
