@@ -271,7 +271,7 @@ a:visited .chinatown-button{
 }
 
 .restaurant-arrow-ag{
-    visibility: hidden;
+    display: none;
 }
 
 .name{
@@ -678,8 +678,7 @@ figure{
         font-weight: bold;
         left: 20vh;
         }
-    
-       
+
     .inside-caption{
         font-size: 3em;
         position: relative;
@@ -751,7 +750,12 @@ figure{
         top: 70vh;
         right: 8%;
     }
-    
+
+    .restaurant-arrow-ag{
+        display: inline;
+        transform: rotate(80deg);
+    }
+
     .rest-image-caption{
         position: absolute;
         right: 30%;
@@ -768,14 +772,6 @@ figure{
         transform: rotate(80deg);
     }
 
-    .restaurant-arrow-ag{
-        visibility: visible;
-        position: absolute;
-        top: 62%;
-        right: 20%;
-        transform: rotate(80deg);
-    }
-
     .eb-restaurant-image{
         position: absolute;
         max-width: 40%;
@@ -784,19 +780,11 @@ figure{
     }
 
     .eb-rest-image-caption{
-        position: absolute;
-        right: 40%;
-        top: 50%;
+        position: relative;
+        bottom: 600px;
+        left: 250px;
         font-size: 3.5em;
         color:rgb(252, 127, 69);
-    }
-    
-    .restaurant-arrow-ag{
-        visibility: visible;
-        position: absolute;
-        top: 40%;
-        right: 45%;
-        transform: rotate(10deg);
     }
 
     .takeout-arrow-ag{
@@ -840,11 +828,12 @@ figure{
 }
 
 .eb-rest-image-caption{
-    position: absolute;
-    right: 45%;
-    top: 50%;
-    font-size: 5em;
+    position: relative;
+    bottom: 600px;
+    left: 250px;
+    font-size: 3.5em;
     color:rgb(252, 127, 69);
+    }
 }
 
 .restaurant-arrow{
