@@ -20,6 +20,14 @@ body{
     max-width: 80%;
 }
 
+.restaurant-arrow{
+    visibility: hidden;
+}
+
+.restaurant-arrow-ag{
+    visibility: hidden;
+}
+
 .container{
     display: grid;
     min-height: 85vh;
@@ -349,6 +357,11 @@ figure{
     text-align: center;
 }
 
+.rest-image-caption{
+    font-size: 2.5em;
+    font-style: italic;
+}
+
 .support-AG{
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
@@ -370,6 +383,14 @@ figure{
     padding: 5%;
     font-size: 0.8em;
     
+}
+
+.restaurant-image{
+    max-width: 80%;
+}
+
+.eb-restaurant-image{
+    max-width: 80%;
 }
 
 /* asian garden restaurant specific css */
@@ -513,6 +534,18 @@ figure{
     font-weight: bold;
     transform: rotate(35deg);
     }
+
+    .ag-take-out-caption{
+        position: relative;
+        max-width: 50%;
+        font-size: 1.6em;
+        left: 85%;
+        bottom: 330px;
+        transform: rotate(20deg);
+        color: rgb(252, 127, 69);
+
+    }
+    
     }
 
 
@@ -562,9 +595,122 @@ figure{
     section.elyana h1{
         font-size: 2.5em;
     }
+
+}
+
+@media only screen and (min-width: 1000px){
+    .restaurant-image{
+        position: absolute;
+        max-width: 40%;
+        top: 70vh;
+        right: 8%;
+    }
+    
+    .rest-image-caption{
+        position: absolute;
+        right: 30%;
+        top: 60%;
+        font-size: 4em;
+        color:rgb(252, 127, 69);
+    }
+    
+    .restaurant-arrow{
+        visibility: visible;
+        position: absolute;
+        top: 62%;
+        right: 20%;
+        transform: rotate(80deg);
+    }
+
+    .restaurant-arrow-ag{
+        visibility: visible;
+        position: absolute;
+        top: 62%;
+        right: 20%;
+        transform: rotate(80deg);
+    }
+
+    .eb-restaurant-image{
+        position: absolute;
+        max-width: 40%;
+        top: 40vh;
+        right: 8%;
+    }
+
+    .eb-rest-image-caption{
+        position: absolute;
+        right: 40%;
+        top: 50%;
+        font-size: 3.5em;
+        color:rgb(252, 127, 69);
+    }
+    
+    .restaurant-arrow-ag{
+        visibility: visible;
+        position: absolute;
+        top: 40%;
+        right: 45%;
+        transform: rotate(10deg);
+    }
+    
 }
 
 
+@media only screen and (min-width: 1200px){
+.restaurant-image{
+    position: absolute;
+    max-width: 40%;
+    top: 40vh;
+    right: 8%;
+}
 
+.eb-restaurant-image{
+    position: absolute;
+    max-width: 40%;
+    top: 40vh;
+    right: 8%;
+}
+
+.rest-image-caption{
+    position: absolute;
+    right: 55%;
+    top: 50%;
+    font-size: 4em;
+    color:rgb(252, 127, 69);
+}
+
+.eb-rest-image-caption{
+    position: absolute;
+    right: 45%;
+    top: 50%;
+    font-size: 4em;
+    color:rgb(252, 127, 69);
+}
+
+.restaurant-arrow{
+    visibility: visible;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    transform: rotate(0deg);
+}
+
+.restaurant-arrow-ag{
+    visibility: visible;
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    transform: rotate(10deg);
+}
+
+.takeout-arrow-ag{
+    visibility: visible;
+    position: relative;
+    bottom: 300px;
+    left: 50%;
+    transform: rotate(180deg);
+}
+
+}
 
 
