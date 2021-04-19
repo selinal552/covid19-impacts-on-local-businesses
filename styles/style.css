@@ -267,7 +267,7 @@ a:visited .chinatown-button{
 }
 
 .restaurant-arrow{
-    visibility: hidden;
+    display: none;
 }
 
 .restaurant-arrow-ag{
@@ -630,13 +630,14 @@ figure{
     }
 
     .takeout-arrow-ag{
-        display: inline;
+        display: inline-block;
         position: relative;
         bottom: 140px;
         max-width: 20%;
         left: 50%;
         transform: rotate(180deg);
     }
+
     
     }
 
@@ -696,7 +697,7 @@ figure{
     }
 
     .takeout-arrow-ag{
-        display: inline;
+        visibility: visible;
         position: relative;
         bottom: 300px;
         left: 50%;
@@ -752,7 +753,10 @@ figure{
     }
 
     .restaurant-arrow-ag{
-        display: inline;
+        display: inline-block;
+        position: absolute;
+        top: 210px;
+        right: 330px;
         transform: rotate(80deg);
     }
 
@@ -765,11 +769,11 @@ figure{
     }
     
     .restaurant-arrow{
-        visibility: visible;
+        display: inline-block;
         position: absolute;
-        top: 62%;
-        right: 20%;
-        transform: rotate(80deg);
+        top: 60%;
+        right: 230px;
+        transform: rotate(90deg);
     }
 
     .eb-restaurant-image{
@@ -780,15 +784,15 @@ figure{
     }
 
     .eb-rest-image-caption{
-        position: relative;
-        bottom: 600px;
-        left: 250px;
+        position: absolute;
+        bottom: 510px;
+        left: 460px;
         font-size: 3.5em;
         color:rgb(252, 127, 69);
     }
 
     .takeout-arrow-ag{
-        display: inline;
+        visibility: visible;
         position: relative;
         bottom: 300px;
         left: 50%;
@@ -820,24 +824,25 @@ figure{
 }
 
 .rest-image-caption{
-    position: absolute;
-    right: 55%;
-    top: 50%;
+    position: relative;
+    max-width: 50%;
+    left: 300px;
+    top: -470px;
     font-size: 4em;
     color:rgb(252, 127, 69);
 }
 
 .eb-rest-image-caption{
     position: relative;
-    bottom: 600px;
+    bottom: 530px;
     left: 250px;
     font-size: 3.5em;
     color:rgb(252, 127, 69);
     }
-}
+
 
 .restaurant-arrow{
-    visibility: visible;
+    display: inline-block;
     position: absolute;
     top: 40%;
     right: 50%;
@@ -845,21 +850,19 @@ figure{
 }
 
 .restaurant-arrow-ag{
-    visibility: visible;
+    display: inline-block;
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 45%;
-    transform: rotate(10deg);
+    transform: rotate(30deg);
 }
 
 .takeout-arrow-ag{
-    display: inline;
+    display: inline-block;
     position: relative;
     bottom: 300px;
     left: 50%;
     transform: rotate(180deg);
 }
-
+ 
 }
-
-
