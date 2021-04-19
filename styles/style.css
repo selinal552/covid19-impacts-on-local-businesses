@@ -80,9 +80,8 @@ body{
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 5%;
     font-family: 'Oxygen', sans-serif; 
     font-size: 0.7em;
@@ -94,6 +93,11 @@ nav ul {
   .nav-links{
       font-weight: bold;
   }
+
+  a.restaurant-link{
+    text-decoration: none; color:rgb(252, 127, 69)}
+  a.restaurant-link:hover { text-decoration: none; color:rgb(68, 68, 68);}
+  
 
 span{
     color: #F95638;
@@ -641,8 +645,14 @@ figure{
     
     }
 
-
   @media only screen and (min-width: 800px){
+
+    nav ul {
+        padding: 3%;
+        font-family: 'Oxygen', sans-serif; 
+        font-size: 0.7em;
+    }
+
     h1.front-page-header{
      font-size: 3.5em;
      min-height: 100vh;
@@ -846,7 +856,7 @@ figure{
     position: absolute;
     top: 40%;
     right: 50%;
-    transform: rotate(0deg);
+    transform: rotate(45deg);
 }
 
 .restaurant-arrow-ag{
