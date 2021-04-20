@@ -373,12 +373,15 @@ li{
 
 .support{
     display: grid;
-    text-align: left;
+    text-align: center;
     place-items: center;
     max-width: 60%;
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 6%;
 }
+
+a.support-button:hover { text-decoration: none; color:rgb(68, 68, 68); }
 
 .owner{
     display:inline;
