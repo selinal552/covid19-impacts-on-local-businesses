@@ -183,7 +183,7 @@ color: #083D77;
     min-height: 70vh;
     text-align: left;
     place-items: center;
-    max-width: 70%;
+    max-width: 60%;
     margin: auto;
 }
 
@@ -422,7 +422,8 @@ figure{
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
     background-color: #F4D35E;
-    padding: 2%;
+    padding: 5%;
+    margin-bottom: 3%;
     border-radius: 10px;
     border: 1px solid #f3e7ba;
   }
@@ -468,7 +469,9 @@ figure{
     color: #083D77;
 }
 
-
+.list-support{
+    display: none;
+}
 
 
 /* asian garden restaurant specific css */
@@ -530,7 +533,6 @@ figure{
     right: 20%;
 
   }
-
 
   .circle{
     width: 200px;
@@ -598,6 +600,9 @@ figure{
     p{
         font-size: 1.1em;
        }
+    .list-support{
+        display:block;
+    }
   }
 
 
@@ -633,7 +638,7 @@ figure{
     }
 
     blockquote{
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     /* restaurant specific media query */
@@ -654,16 +659,16 @@ figure{
     p.video-description{
     color:#083D77;
     font-size: 1.1em;
-    font-weight: bold;
+    font-style: italic;
     position: relative;
     left: 120px;
     }
 
     .inside-caption{
         position: relative;
-        right: 40%;
+        right: 0;
         font-size: 1.3em;
-        font-weight: bold;
+        font-style: italic;
         color:#083D77;
     }
 
@@ -689,6 +694,18 @@ figure{
         transform: rotate(180deg);
     }
 
+    .rest-support-list{
+        display: grid;
+        grid-template-columns: 1fr 0.6fr;
+    }
+
+    section.selina p{
+        font-size: 1.1em;
+    }
+
+    section.elyana p{
+        font-size: 1.1em;
+    }
     
     }
 
@@ -733,17 +750,18 @@ figure{
      p.video-description{
         color:#083D77;;
         font-size: 2em;
-        font-weight: bold;
+        font-style: italic;
         left: 20vh;
-        background-color:  rgba(68, 68, 68, 0.329);
+        background-color:  rgb(219, 218, 218);
         }
     
 
     .inside-caption{
         font-size: 3em;
         position: relative;
+        right: 150px;
         bottom: 45vh;
-        background-color: rgba(68, 68, 68, 0.329);
+        background-color: rgb(219, 218, 218);
     }
 
     .take-out-caption{
@@ -782,11 +800,11 @@ figure{
     }
 
     section.selina h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     section.elyana h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
 }
@@ -860,13 +878,18 @@ figure{
 
     .inside-caption{
         font-size: 3em;
-    }
-
-    .inside-caption{
-        font-size: 3em;
         position: relative;
         bottom: 50vh;
     }
+
+    .support-AG{
+        font-size: 1em;
+        font-family: 'Oxygen', sans-serif;
+        background-color: #F4D35E;
+        padding: 3%;
+        border-radius: 10px;
+        border: 1px solid #f3e7ba;
+      }
     
 }
 
@@ -948,6 +971,15 @@ figure{
     left: 50%;
     transform: rotate(180deg);
 }
+
+.support-AG{
+    font-size: 1em;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #F4D35E;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid #f3e7ba;
+  }
  
 }
 
@@ -960,3 +992,4 @@ figure{
         transform: rotate(45deg);
     }
 }
+
