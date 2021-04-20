@@ -9,11 +9,14 @@
 
 a:link { text-decoration: none; color:rgb(68, 68, 68)}
 a:visited { text-decoration: none; color:rgb(68, 68, 68);}
-a:hover { text-decoration: none; color:#F95638;}
+a:hover { text-decoration: none; color:#d66401;}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
-
-
 /* universal + home page css */
+
+a.active{
+    border-bottom: 1px solid rgba(68, 68, 68, 0.507);
+    padding-bottom: 2%;
+}
 
 body{
     background-color: #EBEBD3;
@@ -34,12 +37,12 @@ body{
 
 .foo{
     width: 200px;
-    height: 3px;
-    border: 1px solid rgba(0, 0, 0, 0);
+    height: 2px;
+
     padding-bottom: 2%;
-    background:  #F95638;
+    background:  #d66401;
     position: absolute;
-    top: 18%;
+    top: 20%;
 }
 
 .foo2{
@@ -47,7 +50,7 @@ body{
     height: 300px;
     border: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 2%;
-    background:  #F95638;
+    background:  #d66401;
     position: absolute;
     top: 75%;
     right: 10%
@@ -59,7 +62,7 @@ body{
     border: 1px solid rgba(0, 0, 0, 0);
     padding-top: 2%;
     padding-bottom: 2%;
-    background:  #F95638;
+    background:  #d66401;
 }
 
 .foo4{
@@ -67,7 +70,7 @@ body{
     width: 10px;
     height: 100px;
     position: relative;
-    background:  #F95638;
+    background:  #d66401;
     bottom: 100%;
     right: 60%;
 }
@@ -76,7 +79,7 @@ body{
     width: 50px;
     height: 10px;
     position: relative;
-    background:  #F95638;
+    background:  #d66401;
 }
 
 nav ul {
@@ -90,13 +93,10 @@ nav ul {
     color:rgb(68, 68, 68);
   } 
 
-  .nav-links{
-      font-weight: bold;
-  }
 
   a.restaurant-link{
     text-decoration: none; color:#083D77}
-  a.restaurant-link:hover { text-decoration: none; color:#F95638;}
+  a.restaurant-link:hover { text-decoration: none; color:#d66401;}
 
   a.bottom-cta:hover { text-decoration: none; color:rgb(68, 68, 68);}
   
@@ -428,7 +428,7 @@ figure{
   }
 
   .blue {
-    background: #f95538c2;
+    background: #d66401;
   }
 
   .poc-statistics{
@@ -516,7 +516,7 @@ figure{
     height: 5px;
     border: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 2%;
-    background:  #F95638;
+    background: #d66401;
   }
 
   .block2{
@@ -524,12 +524,33 @@ figure{
     height: 400px;
     border: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 2%;
-    background:  #F95638;
+    background: #d66401;
     position: absolute;
     top: 58%;
     right: 20%;
 
   }
+
+
+  .circle{
+    width: 200px;
+    height: 200px;
+    background:#d664019f;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+}
+
+.line{
+    width: 200px;
+    height: 4px;
+    background:#083e779a;
+    position: absolute; 
+    top: 300px;
+    right: 330px;
+    transform: rotate(30deg);
+}
 
   .selina-image{
     display:flex;
@@ -562,6 +583,7 @@ figure{
   }
 
   section.doc-links{
+    display: inline;
     text-align: center;
   }
 
@@ -654,7 +676,7 @@ figure{
         left: 85%;
         bottom: 150px;
         transform: rotate(20deg);
-        color: rgb(252, 127, 69);
+        color: #d66401;
         margin-bottom: 0;
 
     }
@@ -711,15 +733,18 @@ figure{
     
      p.video-description{
         color:#083D77;;
-        font-size: 1.1em;
+        font-size: 2em;
         font-weight: bold;
         left: 20vh;
+        background-color:  rgba(68, 68, 68, 0.329);
         }
+    
 
     .inside-caption{
         font-size: 3em;
         position: relative;
         bottom: 45vh;
+        background-color: rgba(68, 68, 68, 0.329);
     }
 
     .take-out-caption{
@@ -729,7 +754,7 @@ figure{
         left: 85%;
         bottom: 300px;
         transform: rotate(20deg);
-        color: rgb(252, 127, 69);
+        color: #d66401;
     }
 
     .takeout-arrow-ag{
@@ -800,7 +825,7 @@ figure{
         right: 30%;
         top: 60%;
         font-size: 4em;
-        color:rgb(252, 127, 69);
+        color:#d66401;
     }
     
     .restaurant-arrow{
@@ -823,7 +848,7 @@ figure{
         bottom: 510px;
         left: 460px;
         font-size: 3.5em;
-        color:rgb(252, 127, 69);
+        color:#d66401;
     }
 
     .takeout-arrow-ag{
@@ -883,7 +908,7 @@ figure{
     left: 300px;
     top: -470px;
     font-size: 4em;
-    color:rgb(252, 127, 69);
+    color:#d66401;
 }
 
 .eb-rest-image-caption{
@@ -891,7 +916,7 @@ figure{
     bottom: 530px;
     left: 250px;
     font-size: 3.5em;
-    color:rgb(252, 127, 69);
+    color:#d66401;
     }
 
 
