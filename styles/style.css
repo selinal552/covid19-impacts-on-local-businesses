@@ -160,7 +160,7 @@ color: #083D77;
 }
 
 h3{
-font-size: 1.8em;
+font-size: 1.3em;
 font-family: 'Cantarell', sans-serif;
 font-weight: bold;
 color: #083D77;
@@ -369,6 +369,23 @@ li{
     color: #083D77;
     padding: 6%;
     list-style: none;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.map-image{
+    display: none;
+}
+
+.circle1{
+    display: none;
+}
+
+.circle2{
+    display: none;
 }
 
 .support{
@@ -640,6 +657,7 @@ figure{
     blockquote{
         font-size: 1.1em;
     }
+    
 
     /* restaurant specific media query */
 
@@ -746,6 +764,7 @@ figure{
         font-size: 1.3em;
         max-width: 90%;
        }
+    
     
      p.video-description{
         color:#083D77;;
@@ -907,6 +926,35 @@ figure{
     li{
         font-size: 1.3em;
         max-width: 100%;
+    }
+
+    .map-image{
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+
+    .circle1{
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color:#083D77;
+        position: relative;
+        bottom: 110px;
+        left: 390px;
+    }
+    
+    .circle2{
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color:#083D77;
+        position: relative;
+        bottom: 360px;
+        left: 580px;
+    
     }
 
     /* restaurant specific css */
