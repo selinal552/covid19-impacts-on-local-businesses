@@ -9,7 +9,7 @@
 
 a:link { text-decoration: none; color:rgb(68, 68, 68)}
 a:visited { text-decoration: none; color:rgb(68, 68, 68);}
-a:hover { text-decoration: none; color:rgb(252, 127, 69);}
+a:hover { text-decoration: none; color:#F95638;}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
 
 
@@ -76,7 +76,7 @@ body{
     width: 50px;
     height: 10px;
     position: relative;
-    background:  rgb(252, 127, 69);
+    background:  #F95638;
 }
 
 nav ul {
@@ -95,12 +95,18 @@ nav ul {
   }
 
   a.restaurant-link{
-    text-decoration: none; color:rgb(252, 127, 69)}
-  a.restaurant-link:hover { text-decoration: none; color:rgb(68, 68, 68);}
+    text-decoration: none; color:#083D77}
+  a.restaurant-link:hover { text-decoration: none; color:#F95638;}
+
+  a.bottom-cta:hover { text-decoration: none; color:rgb(68, 68, 68);}
   
 
+  .header-span{
+      color: #083D77;
+  }
+
 span{
-    color: #F95638;
+    color: #d66401;
 }
 
 
@@ -163,7 +169,7 @@ color: #083D77;
 h4{
 font-size: 1.8em;
 font-family: 'Cantarell', sans-serif;
-color: #F95638;
+color: #d66401;
 }
 
 p{
@@ -361,7 +367,7 @@ li{
     font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
     color: #083D77;
-    padding-bottom: 5%;
+    padding: 6%;
     list-style: none;
 }
 
@@ -419,7 +425,7 @@ figure{
   }
 
   .blue {
-    background: #EE964B;
+    background: #f95538c2;
   }
 
   .poc-statistics{
@@ -458,6 +464,8 @@ figure{
     font-size: 1.1em;
     color: #083D77;
 }
+
+
 
 
 /* asian garden restaurant specific css */
@@ -555,6 +563,20 @@ figure{
   }
 
 
+  @media only screen and (min-width:300px){
+    p{
+        font-size: 1em;
+       }
+    
+  }
+
+  @media only screen and (min-width: 550px){
+    p{
+        font-size: 1.1em;
+       }
+  }
+
+
   @media only screen and (min-width: 600px){
     p{
         font-size: 1.2em;
@@ -574,6 +596,7 @@ figure{
     
     li{
         font-size: 1.2em;
+        max-width: 100%;
       }
 
     .container{
@@ -605,8 +628,8 @@ figure{
     }
 
     p.video-description{
-    color:rgb(252, 127, 69);
-    font-size: 1.5em;
+    color:#083D77;
+    font-size: 1.1em;
     font-weight: bold;
     position: relative;
     left: 120px;
@@ -617,7 +640,7 @@ figure{
         right: 40%;
         font-size: 1.3em;
         font-weight: bold;
-        color:rgb(252, 127, 69);
+        color:#083D77;
     }
 
     .take-out-caption{
@@ -646,7 +669,7 @@ figure{
     }
 
   @media only screen and (min-width: 800px){
-
+    
     nav ul {
         padding: 3%;
         font-family: 'Oxygen', sans-serif; 
@@ -667,7 +690,7 @@ figure{
     }
 
     h2{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     h3{
@@ -675,17 +698,17 @@ figure{
     }
 
     p{
-        font-size: 1.6em;
+        font-size: 1.3em;
        }
     
     li{
-        font-size: 1.6em;
+        font-size: 1.3em;
         max-width: 90%;
        }
     
      p.video-description{
-        color:rgb(252, 127, 69);
-        font-size: 1.5em;
+        color:#083D77;;
+        font-size: 1.1em;
         font-weight: bold;
         left: 20vh;
         }
@@ -693,7 +716,7 @@ figure{
     .inside-caption{
         font-size: 3em;
         position: relative;
-        bottom: 25vh;
+        bottom: 45vh;
     }
 
     .take-out-caption{
@@ -747,12 +770,11 @@ figure{
     /* restaurant specific css */
 
     p.video-description{
-        color:rgb(252, 127, 69);
-        font-size: 1.5em;
+        color:#083D77;
         font-weight: bold;
         position: relative;
         left: 40vh;
-        font-size: 3em;
+        font-size: 2em;
         }
 
     .restaurant-image{
@@ -812,11 +834,30 @@ figure{
     .inside-caption{
         font-size: 3em;
     }
+
+    .inside-caption{
+        font-size: 3em;
+        position: relative;
+        bottom: 50vh;
+    }
     
 }
 
 
 @media only screen and (min-width: 1200px){
+
+    nav li{
+        font-size: 1.5em;
+    }
+
+    a.centering-com{
+        font-size: 1em;
+    }
+
+    li{
+        font-size: 1.3em;
+        max-width: 100%;
+    }
 
     /* restaurant specific css */
 .restaurant-image{
@@ -855,7 +896,7 @@ figure{
     display: inline-block;
     position: absolute;
     top: 40%;
-    right: 50%;
+    right: 45%;
     transform: rotate(45deg);
 }
 
@@ -867,6 +908,12 @@ figure{
     transform: rotate(30deg);
 }
 
+.inside-caption{
+    font-size: 3em;
+    position: relative;
+    bottom: 50vh;
+}
+
 .takeout-arrow-ag{
     display: inline-block;
     position: relative;
@@ -875,4 +922,14 @@ figure{
     transform: rotate(180deg);
 }
  
+}
+
+@media only screen and (min-width: 1300px) {
+    .restaurant-arrow{
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        right: 50%;
+        transform: rotate(45deg);
+    }
 }
