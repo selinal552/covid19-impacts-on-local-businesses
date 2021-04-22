@@ -13,17 +13,15 @@ a:hover { text-decoration: none; color:#d66401;}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
 /* universal + home page css */
 
-a.active{
-    border-bottom: 1px solid rgba(68, 68, 68, 0.507);
-    padding-bottom: 2%;
-}
-
 body{
     background-color: #EBEBD3;
 }
 
 .header-image{
-    max-width: 80%;
+    max-width: 100%;
+    padding: 2%;
+    position: relative;
+    right: 0.3em;
 }
 
 .container{
@@ -83,6 +81,10 @@ nav ul {
     color:rgb(68, 68, 68);
   } 
 
+  a.active{
+    border-bottom: 1px solid rgba(68, 68, 68, 0.507);
+    padding-bottom: 2%;
+}
 
   a.restaurant-link{
     text-decoration: none; color:#083D77}
@@ -169,8 +171,6 @@ color: #083D77;
 }
 
 
-
-
 .tableauPlaceholder {
    margin: auto;
    size: 40%;
@@ -184,7 +184,6 @@ blockquote{
     text-align: center;
     color:rgb(68, 68, 68);
 }
-
 
 
 .quotemark{
@@ -237,11 +236,15 @@ a:visited .chinatown-button{
     background-color: #f3ba88;
 }
 
+.neighborhood-map{
+    display: none;
+}
+
 
 /* restaurant specific css */
 
 .to-restaurant-video{
-    padding:10%;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -262,7 +265,7 @@ a:visited .chinatown-button{
 .address{
     text-align: left;
     place-items: left;
-    padding-left: 10%;
+
     font-size: 0.5em;
     background-color: #EE964B;
     
@@ -287,10 +290,6 @@ a:visited .chinatown-button{
     place-items: center;
     margin: auto;
     padding:10%;
-}
-
-.owner-pic{
-    position: relative;
 }
 
 .star-ag{
@@ -351,22 +350,6 @@ li{
     list-style: none;
 }
 
-.map{
-    display: flex;
-    justify-content: center;
-}
-
-.map-image{
-    display: none;
-}
-
-.circle1{
-    display: none;
-}
-
-.circle2{
-    display: none;
-}
 
 .support{
     text-align: center;
@@ -378,6 +361,9 @@ li{
     display: grid;
     row-gap: 0.6rem;
     place-items: center;
+    max-width: 60rem;
+    margin: auto;
+    padding-inline-start: 0;
 }
 
 .support-button{
@@ -392,10 +378,10 @@ li{
 }
 
 .owner{
-    display:inline;
-    height: auto;
-    max-width: 100%;
-    padding: 30%:
+   margin: 0 auto;
+   display: block;
+   max-width: 100%;
+
 }
 
 .elpelon-owner{
@@ -413,8 +399,9 @@ li{
 
 .takeout{
     margin: auto;
-    max-width: 400px;
-    padding: 5%;
+    display: block;
+    max-width: 100%;
+    padding: 2rem;
     border: 2px solid #EE964B;
 }
 
@@ -426,6 +413,12 @@ figure{
     text-align: center;
     margin-inline-end: 0px;
     margin-block-end: 0em;
+    margin-inline-start: 0;
+}
+
+.arrow-group{
+    z-index: 1;
+    height:fit-content;
 }
 
 .rest-image-caption{
@@ -439,7 +432,6 @@ figure{
     font-size: 2.5em;
     font-style: italic;
     position: relative;
-    right: 50px;
 }
 
 .support-AG{
@@ -474,7 +466,6 @@ figure{
 .eb-restaurant-image{
     max-width: 100%;
     position: relative;
-    right: 50px;
 }
 
 
@@ -501,6 +492,15 @@ figure{
 }
 
 
+.address-figure{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+video{
+    max-width: max-content;
+    width: 100%;
+}
 
 /* asian garden restaurant specific css */
 .foo-ag {
@@ -619,6 +619,12 @@ figure{
     blockquote{
         font-size: 1.1em;
         padding: 2%;
+    }
+
+    .neighborhood-map{
+        display: block;
+        max-width: 100%;
+        margin: auto;
     }
     
 
@@ -770,6 +776,10 @@ figure{
         padding: 2%;
     }
 
+    .neighborhood-map{
+        padding: 2rem;
+    }
+
     /* restaurant specific css */
 
     .inside1{
@@ -841,6 +851,7 @@ figure{
 
 @media only screen and (min-width: 1000px){
 
+    /*home page css */
     .overview-part-1{
         padding: 2% 12%;
     }
@@ -888,17 +899,27 @@ figure{
         font-size: 2em;
     }
 
+    .arrow-group{
+        z-index: 1;
+        height:fit-content;
+        margin-top: 40%;
+        margin-right: 1rem;
+    }
+
     .address{
         display: flex;
         padding: 2%;
     }
 
+    .address-figure{
+        display: flex;
+        flex-direction: row;
+    }
 
     .restaurant-image{
         position: relative;
         max-width: 500px;
     }
-
 
     .rest-image-caption{
         position: absolute;
@@ -916,23 +937,16 @@ figure{
     }
 
     .eb-restaurant-image{
-        position: relative;
         max-width: 500px;
     }
 
     .eb-rest-image-caption{
-        position: absolute;
-        bottom: 10px;
-        right: 600px;
         font-size: 3.5em;
         color:#083D77;
     }
 
     .restaurant-arrow-ag{
         display: inline-block;
-        position: absolute;
-        bottom: 50px;
-        right: 670px;
     }
 
     p.video-description{
@@ -1036,18 +1050,15 @@ figure{
         padding: 2%;
     }
 
+    .neighborhood-map{
+        padding: 3rem;
+    }
+
     /* restaurant specific css */
 
     .address{
         display: flex;
         padding: 2%;
-    }
-
-
-    .restaurant-image{
-        position: relative;
-        max-width: 600px;
-        right: 8%;
     }
         
     .introduction{
@@ -1074,25 +1085,16 @@ figure{
     
     /* header details for ag */
 
-
     .eb-restaurant-image{
-        position: absolute;
         max-width: 600px;
     }
 
     .eb-rest-image-caption{
-        position: absolute;
-        bottom: 10px;
-        right: 600px;
         font-size: 3.5em;
         color:#083D77;
     }
 
-    .restaurant-arrow-ag{
-        position: absolute;
-        bottom: 50px;
-        right: 670px;
-    }
+   
 
     /* header info for east boston */
 
@@ -1100,6 +1102,11 @@ figure{
         left: 170px;
     }   
 
+    .restaurant-image{
+        position: relative;
+        max-width: 600px;
+        right: 8%;
+    }
     .restaurant-arrow{
     display: inline-block;
     position: absolute;
