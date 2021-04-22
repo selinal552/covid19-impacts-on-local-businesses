@@ -460,7 +460,6 @@ figure{
 .restaurant-image{
     max-width: 100%;
     position: relative;
-    right: 50px;
 }
 
 .eb-restaurant-image{
@@ -917,23 +916,18 @@ video{
     }
 
     .restaurant-image{
-        position: relative;
         max-width: 500px;
     }
 
     .rest-image-caption{
-        position: absolute;
-        bottom: 10px;
-        right: 650px;
         font-size: 3.5em;
         color:#083D77;
     }
     
     .restaurant-arrow{
         display: inline-block;
-        position: absolute;
-        bottom: 50px;
-        right: 670px;
+        max-width: 50px;
+        height: 50px;
     }
 
     .eb-restaurant-image{
@@ -1094,24 +1088,17 @@ video{
         color:#083D77;
     }
 
-   
 
     /* header info for east boston */
 
     .rest-image-caption{
-        left: 170px;
+        font-size: 3.5em;
+        color:#083D77;
     }   
 
     .restaurant-image{
-        position: relative;
         max-width: 600px;
-        right: 8%;
     }
-    .restaurant-arrow{
-    display: inline-block;
-    position: absolute;
-    left: 380px;
-}
 
     .inside-caption{
     font-size: 3em;
