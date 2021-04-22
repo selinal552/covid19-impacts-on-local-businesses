@@ -385,9 +385,9 @@ li{
 }
 
 .elpelon-owner{
-    display:inline;
-    height: auto;
-    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
 }
 
 .inside1{
