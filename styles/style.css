@@ -281,14 +281,14 @@ a:visited .chinatown-button{
 .introduction{
     text-align: left;
     place-items: center;
-    padding: 5%;
+    padding: 1rem 3rem;
     margin: auto;
 }
 
 .walk-through{
     text-align: left;
     place-items: center;
-    padding: 10%;
+    padding: 1rem 3rem;
     margin: auto;
 }
 
@@ -296,44 +296,14 @@ a:visited .chinatown-button{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding:10%;
-}
-
-.star-ag{
-    display: inline-block;
-    position: absolute;
-    width: 15%;
-    left: 30%;
-}
-
-.star-ag2{
-    display: inline-block;
-    position: absolute;
-    width: 15%;
-    right: 30%;
-    top: 30%;
-}
-
-.star-ag3{
-    display: inline-block;
-    position: absolute;
-    width: 15%;
-    left: 30%;
-}
-
-.star-ag4{
-    display: inline-block;
-    position: absolute;
-    width: 15%;
-    right: 30%;
-    bottom: 10%;
+    padding: 1rem 3rem;
 }
 
 .impact{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 10%;
+    padding: 1rem 3rem;
 }
 
 blockquote.restaurant-blockquote{
@@ -359,6 +329,7 @@ li{
 
 
 .support{
+    padding-top: 1rem;
     text-align: center;
     place-items: center;
     margin: auto;
@@ -377,7 +348,7 @@ li{
     max-width: fit-content;
     height: fit-content;
     background-color: #f95538a2;
-    padding: 5%;
+    padding: 1rem;
     border-radius: 10px;
     border: 1px solid #f3e7ba;
     font-size: 1em;
@@ -400,7 +371,7 @@ li{
 .inside1{
     max-width: 100%;
     margin: auto;
-    padding: 5%;
+    padding: 1rem;
     border: 2px solid #EE964B;
 }
 
@@ -408,8 +379,12 @@ li{
     margin: auto;
     display: block;
     max-width: 100%;
-    padding: 2rem;
+    padding: 2em;
     border: 2px solid #EE964B;
+}
+
+.takeout-block{
+    padding: 1rem 3rem;
 }
 
 figure{
@@ -459,7 +434,7 @@ figure{
     display: inline-block;
     text-align: left;
     margin: auto;
-    padding: 5%;
+    padding: 2.5rem;
     font-size: 0.6em;
     
 }
@@ -613,7 +588,8 @@ video{
 
     .list-support{
         display:block;
-        font-size: 1.4em;
+        margin: auto;
+        font-size: 1.2em;
     }
     
   }
@@ -702,6 +678,10 @@ video{
         font-size: 1.4em;
         font-style: italic;
         color:#083D77;
+    }
+
+    .takeout-block{
+        padding: 1rem 7rem;
     }
 
 
@@ -830,15 +810,23 @@ video{
         }
 
     .introduction{
-        padding: 0 10%;
+        padding: 0rem 4rem;
+    }
+
+    .walk-through{
+        padding: 1rem 4rem;
     }
 
     .profile{
-        padding: 0 10%;
+        padding: 1rem 4rem;
     }
     
     .owner{
         max-width: 500px;
+    }
+
+    .impact{
+        padding: 1rem 4rem;
     }
 
     .inside-caption{
@@ -861,6 +849,8 @@ video{
     .takeout{
         max-width: 500px;  
     }
+
+
 
      /*change to about us*/  
      div.bios{
@@ -937,6 +927,10 @@ video{
 
 
     /* restaurant specific css */
+    div.introduction h2{
+        font-size: 1.4em;
+    }
+
     div.profile h3{
         font-size: 2em;
     }
@@ -1001,8 +995,31 @@ video{
         font-size: 2em;
         }
 
+    .introduction{
+        padding: 2rem 6rem;
+    }
+
+    .walk-through{
+        padding: 2rem 6rem;
+        line-height: 2em;
+    }
+
+    .profile{
+        padding: 2rem 6rem;
+        line-height: 2em;
+    }
+    
+    .owner{
+        max-width: 500px;
+    }
+
+    .impact{
+        padding: 2rem 6rem;
+        line-height: 2em;
+    }
+
     .to-restaurant-video{
-        max-width: 600px;
+        max-width: 500x;
         }
 
     .inside-caption{
@@ -1017,6 +1034,8 @@ video{
     .elpelon-owner{
         max-width: 400px;
     }
+
+
 
     .takeout{
         max-width: 500px;
@@ -1086,7 +1105,7 @@ video{
     }
 
     p{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     blockquote{
@@ -1116,27 +1135,33 @@ video{
 
     /* restaurant specific css */
 
+    div.introduction h2{
+        font-size: 1.5em;
+    }
+
     .address{
         display: flex;
         padding: 2%;
     }
         
     .introduction{
-    padding: 3% 15%;
+    padding: 2rem 11rem;
+    line-height: 2.2rem;
    
     }
 
     .walk-through{
-    padding: 3% 15%;
+    padding: 2rem 11rem;
+    line-height: 2.2rem;
   
     }
 
     .profile{
-    padding: 3% 15%;
+    padding: 2rem 11rem;
     }
 
     .impact{
-    padding: 3% 15%;  
+    padding: 2rem 11rem; 
     }
 
     .to-restaurant-video{
