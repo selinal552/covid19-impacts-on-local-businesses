@@ -190,6 +190,7 @@ blockquote{
     font-family: 'Oxygen', sans-serif;
     text-align: left;
     color:rgb(68, 68, 68);
+    padding-top: 1rem;
 }
 
 
@@ -526,6 +527,10 @@ video{
     place-items: center;
   }
 
+  .role{
+      font-style: italic;
+  }
+
   .block{
     width: 200px;
     padding-bottom: 2%;
@@ -541,7 +546,7 @@ video{
     justify-content: center;
     width: 100%;
     margin: auto;
-    padding: 5%;
+    padding: 2rem;
     border: 2px solid #EE964B;
   }
 
@@ -550,7 +555,7 @@ video{
     justify-content: center;
     width: 100%;
     margin: auto;
-    padding: 5%;
+    padding: 2rem;
     border: 2px solid #EE964B;
   }
 
@@ -560,6 +565,7 @@ video{
     max-width: 100%;
     margin: auto;
     padding: 3rem;
+    line-height: 1.5rem;
   }
 
   section.doc-links a{
@@ -717,6 +723,16 @@ video{
       .inside1{
         max-width: 400px;
     }
+
+    /* about us css */
+    main.aboutus-main{
+        text-align: left;
+        place-items: center;
+        max-width: 100%;
+        margin: auto;
+        padding: 3.5rem;
+        line-height: 1.5rem;
+      }
   }  
 
 
