@@ -13,6 +13,20 @@ a:hover { text-decoration: none; color:#d66401;}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
 /* universal + home page css */
 
+/* for the carousel */
+.carousel {
+    /* width: fit-content;
+    height:50rem; */
+
+}
+.carousel-img{
+    max-width: 20rem;
+    width: fit-content;
+    margin:0 auto;
+} 
+/* carousel ends */
+
+
 body{
     background-color: #EBEBD3;
 }
