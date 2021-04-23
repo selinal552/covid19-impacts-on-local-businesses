@@ -6,3 +6,5 @@ $('.carousel').slick({
     slidesToShow: 1,
     adaptiveHeight: true
 });
+
+$('.carousel').slick();

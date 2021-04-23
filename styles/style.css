@@ -24,6 +24,7 @@ a:active { text-decoration: none; color:rgb(68, 68, 68);}
     width: fit-content;
     margin:0 auto;
 } 
+
 /* carousel ends */
 
 
@@ -84,16 +85,24 @@ body{
 
 /*navigation bar */
 
+ul{
+    padding-inline-start: 0px;
+}
+
 nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
     font-family: 'Oxygen', sans-serif; 
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: bold;
     list-style-type: none; 
     color:rgb(68, 68, 68);
   } 
+ 
+  nav li{
+      padding: 0.5rem;
+      text-align: left;
+  }
 
   a.active{
     border-bottom: 1px solid rgba(68, 68, 68, 0.507);
@@ -324,7 +333,7 @@ li{
     font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
     color: #083D77;
-    padding: 6%;
+    padding: 3rem;
     list-style: none;
 }
 
@@ -588,6 +597,14 @@ video{
 
 
   @media only screen and (min-width: 550px){
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem;
+      } 
+
     p{
         font-size: 1.1em;
        }
@@ -618,7 +635,7 @@ video{
       } 
     
     li{
-        font-size: 1.2em;
+        font-size: 1em;
         max-width: 100%;
       }
 

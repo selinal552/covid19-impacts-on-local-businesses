@@ -81,6 +81,7 @@
 
     height: 100%;
     min-height: 1px;
+    padding: 2rem;
 }
 [dir='rtl'] .slick-slide
 {
@@ -89,6 +90,9 @@
 .slick-slide img
 {
     display: block;
+    max-width: 100%;
+    max-height: fit-content;
+   
 }
 .slick-slide.slick-loading img
 {
