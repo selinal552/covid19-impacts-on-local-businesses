@@ -87,7 +87,7 @@ body{
 nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 5%;
+    padding: 2rem;
     font-family: 'Oxygen', sans-serif; 
     font-size: 0.7em;
     font-weight: bold;
@@ -97,7 +97,6 @@ nav ul {
 
   a.active{
     border-bottom: 1px solid rgba(68, 68, 68, 0.507);
-    padding-bottom: 2%;
 }
 
   a.restaurant-link{
@@ -120,20 +119,20 @@ span{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 10%;
+    padding: 4rem;
 }
 
 .overview-part-1{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 5% 10%;
+    padding: 2rem 3.5rem;
 }
 
 .stats-set1{
     text-align: left;
     place-items: center;
-    padding: 5% 10%;
+    padding: 2rem 3.5rem;
     margin: auto;
 }
 
@@ -141,14 +140,14 @@ span{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 5% 10%;
+    padding: 2rem 3.5rem;
 }
 
 .overview-part-3{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 5% 10%;
+    padding: 2rem 3.5rem;
 }
 
 h1{
@@ -185,17 +184,11 @@ color: #083D77;
 }
 
 
-.tableauPlaceholder {
-   margin: auto;
-   size: 40%;
-
-}
-
 blockquote{
     line-height:1.5em;
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
-    text-align: center;
+    text-align: left;
     color:rgb(68, 68, 68);
 }
 
@@ -511,8 +504,9 @@ figure{
 }
 
 video{
-    max-width: max-content;
-    width: 100%;
+    max-height: min-content;
+    max-width: 100%;
+    margin-top: 0.8rem;
 }
 
 .social-media-buttons{
@@ -555,34 +549,31 @@ video{
 .about-us{
     text-align: left;
     place-items: center;
-    padding-left: 2%;
   }
 
   .block{
     width: 200px;
-    height: 5px;
-    border: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 2%;
     background: #d66401;
   }
 
+  .profile-pic{
+      padding: 0 4rem;
+  }
 
   .selina-image{
     display:flex;
     justify-content: center;
-    width: 50%;
-    height: auto;
+    width: 100%;
     margin: auto;
     padding: 5%;
     border: 2px solid #EE964B;
-    
   }
 
   .elyana-image{
     display:flex;
     justify-content: center;
-    width: 50%;
-    height: auto;
+    width: 100%;
     margin: auto;
     padding: 5%;
     border: 2px solid #EE964B;
@@ -591,13 +582,27 @@ video{
   main.aboutus-main{
     text-align: left;
     place-items: center;
-    max-width: 70%;
+    max-width: 100%;
     margin: auto;
+    padding: 3rem;
+  }
+
+  section.doc-links a{
+      font-size: 1.3em;
+      line-height: 2rem;
+      font-family: 'Cantarell', sans-serif;
+      color: #083D77;
+  }
+
+  section.doc-links a:hover{
+      border-bottom: 0.5px solid #EE964B
   }
 
   section.doc-links{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 5%;
+    padding: 3rem;
   }
 
 
@@ -737,21 +742,25 @@ video{
 
 
   @media only screen and (min-width: 800px){
+
+    .homepage-introduction{
+        padding: 1rem 5rem;
+    }
     
     .overview-part-1{
-        padding: 2% 10%;
+        padding: 1rem 5rem;
     }
     
     .stats-set1{
-        margin: auto;
+        padding: 1rem 5rem;
     }
     
     .overview-part-2{
-        padding: 2% 10%;
+        padding: 1rem 5rem;
     }
     
     .overview-part-3{
-        padding: 2% 10%;
+        padding: 1rem 5rem;
     }
     
 
@@ -761,10 +770,6 @@ video{
 
     .header-image{
         max-width: 300px;
-    }
-
-    blockquote{
-        padding-top: 5%;
     }
     
     nav ul {
@@ -796,7 +801,9 @@ video{
        }
     
     blockquote{
-        font-size: 1.3em;
+        text-align: left;
+        padding-top: 3rem;
+        font-size: 1.2em;
         padding: 2%;
     }
 
@@ -860,7 +867,7 @@ video{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        column-gap: 5%;
+        column-gap: 3rem;
     }
 
     section.selina h1{
@@ -871,25 +878,38 @@ video{
         font-size: 2em;
     }
 
+    section.doc-links a{
+        font-size: 1.5em;
+        line-height: 2.5rem;
+    }
+  
+    section.doc-links a:hover{
+        border-bottom: 0.5px solid #EE964B
+    }
+
 }
 
 @media only screen and (min-width: 1000px){
 
     /*home page css */
+    .homepage-introduction{
+        padding: 2rem 8.5rem;
+    }
+    
     .overview-part-1{
-        padding: 2% 12%;
+        padding: 2rem 8.5rem;
     }
     
     .stats-set1{
-        padding: 2% 12%;
+        padding: 2rem 8.5rem;
     }
     
     .overview-part-2{
-        padding: 2% 12%;
+        padding: 2rem 8.5rem;
     }
     
     .overview-part-3{
-        padding: 2% 12%;
+        padding: 2rem 8.5rem;
     }
 
 
@@ -907,6 +927,12 @@ video{
 
     h3{
         font-size: 1.6em;
+    }
+
+    blockquote{
+        padding-top: 3rem;
+        font-size: 1.2em;
+        padding: 4%;
     }
 
 
@@ -1014,30 +1040,41 @@ video{
       section.elyana p{
         font-size: 1.2em;
     }
-    
+
+    section.doc-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        padding: 3rem;
+      }
 }
 
 
 @media only screen and (min-width: 1200px){
 
     .homepage-introduction{
-        padding: 5% 15%;
+        padding: 3rem 10rem;
     }
 
     .overview-part-1{
-        padding: 2% 15%;
+        padding: 3.5rem 10rem;
+        line-height: 2.5rem;
     }
     
     .stats-set1{
-        padding: 2% 15%;
+        padding: 3.5rem 10rem;
+        line-height: 2.5rem;
     }
     
     .overview-part-2{
-        padding: 2% 15%;
+        padding: 3.5rem 10rem;
+        line-height: 2.5rem;
     }
     
     .overview-part-3{
-        padding: 2% 15%;
+        padding: 3.5rem 10rem;
+        line-height: 2.5rem;
     }
 
     h2{
@@ -1049,7 +1086,11 @@ video{
     }
 
     p{
-        font-size: 1.6em;
+        font-size: 1.5em;
+    }
+
+    blockquote{
+        line-height: 2.5rem;
     }
 
     nav li{
@@ -1129,6 +1170,11 @@ video{
     font-size: 3em;
     position: relative;
 }
+
+/* about us css */
+    main.aboutus-main{
+    padding: 2rem 8rem;
+  }
 }
 
 
