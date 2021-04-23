@@ -101,7 +101,7 @@ nav ul {
  
   nav li{
       padding: 0.5rem;
-      text-align: left;
+      text-align: center;
   }
 
   a.active{
