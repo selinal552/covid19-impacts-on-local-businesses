@@ -486,6 +486,7 @@ figure{
 
 .address-figure{
     display: flex;
+    align-items: flex-start;
     flex-direction: column-reverse;
 }
 
@@ -990,6 +991,7 @@ video{
 
     .address-figure{
         display: flex;
+        align-items: flex-start;
         flex-direction: row;
     }
 
