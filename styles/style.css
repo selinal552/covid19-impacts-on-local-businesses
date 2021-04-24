@@ -17,7 +17,7 @@ a:active { text-decoration: none; color:rgb(68, 68, 68);}
 .carousel {
     /* width: fit-content;
     height:50rem; */
-
+ display: relative;
 }
 .carousel-img{
     max-width: 20rem;
@@ -32,17 +32,22 @@ body{
     background-color: #EBEBD3;
 }
 
+h1.front-page-header{
+    padding-right: 1.5rem;
+    font-size: 2.4rem;
+}
+
 .header-image{
     max-width: 100%;
-    padding: 2%;
+    padding: 0.5rem 1rem;
     position: relative;
-    right: 0.3em;
+    right: 0.6rem;
 }
 
 .container{
     text-align: left;
     place-items: center;
-    padding-left: 5%;
+    padding-left: 2.5rem;
 }
 
 /*decorative elements*/
@@ -347,7 +352,7 @@ li{
 
 .rest-support-list{
     display: grid;
-    row-gap: 0.6rem;
+    row-gap: 0.3rem;
     place-items: center;
     max-width: 60rem;
     margin: auto;
@@ -782,7 +787,7 @@ video{
     }
 
     .header-image{
-        max-width: 300px;
+        max-width: 450px;
     }
     
     nav ul {
@@ -937,11 +942,12 @@ video{
 
 
     .container{
+        padding-top: 2rem;
         display: flex;
     }
 
     .header-image{
-        max-width: 400px;
+        max-width: 500px;
     }
 
     h2{
@@ -1104,6 +1110,10 @@ video{
 
 
 @media only screen and (min-width: 1200px){
+
+    h1.front-page-header{
+        padding: 2rem;
+    }
 
     .homepage-introduction{
         padding: 3rem 10rem;
