@@ -380,9 +380,8 @@ li{
 }
 
 .inside1{
-    max-width: 100%;
-    margin: auto;
-    padding: 1rem;
+    margin: 0 auto;
+    display: block;
     border: 2px solid #EE964B;
 }
 
@@ -390,7 +389,7 @@ li{
     margin: auto;
     display: block;
     max-width: 100%;
-    padding: 2em;
+    padding: 3em;
     border: 2px solid #EE964B;
 }
 
@@ -407,6 +406,10 @@ figure{
     margin-inline-end: 0px;
     margin-block-end: 0em;
     margin-inline-start: 0;
+}
+
+figure.inside-restaurant{
+    padding: 0;
 }
 
 .arrow-group{
@@ -693,7 +696,8 @@ video{
     }
 
     .inside1{
-        max-width: 450px;
+        width: 100%;
+        max-width: 400px;
         margin: auto;
         padding: 1.5rem;
         border: 2px solid #EE964B;
