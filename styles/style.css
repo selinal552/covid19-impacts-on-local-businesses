@@ -347,13 +347,20 @@ li{
 }
 
 .rest-support-list{
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+/* .rest-support-list{
+    display: flex;
+    flex-direction: row;
     row-gap: 0.3rem;
     place-items: center;
     max-width: 60rem;
     margin: auto;
     padding-inline-start: 0;
-}
+*/
 
 .support-button{
     max-width: fit-content;
@@ -382,6 +389,7 @@ li{
 .inside1{
     margin: 0 auto;
     display: block;
+    width: 100%;
     border: 2px solid #EE964B;
 }
 
@@ -389,7 +397,6 @@ li{
     margin: auto;
     display: block;
     max-width: 100%;
-    padding: 3em;
     border: 2px solid #EE964B;
 }
 
@@ -618,7 +625,7 @@ video{
     
   }
 
-  @media only screen and (min-width: 600px){
+  @media only screen and (min-width: 600px) {
     p{
         font-size: 1.2em;
        }
@@ -646,7 +653,6 @@ video{
         margin-inline-start: 2rem;
         margin-inline-end: 2rem;
         }
-    }
 
     .neighborhood-map{
         display: block;
@@ -656,6 +662,14 @@ video{
     
 
     /* restaurant specific media query */
+
+    .rest-image-caption{
+        font-size: 3em;
+    }
+    
+    .eb-rest-image-caption{
+        font-size: 3em;
+    }
 
     div.profile h3{
         font-size: 1.5em;
@@ -712,7 +726,6 @@ video{
         padding: 1rem 7rem;
     }
 
-
     .rest-support-list{
         display: grid;
         grid-template-columns: 1fr 0.6fr;
@@ -733,6 +746,9 @@ video{
     section.elyana p{
         font-size: 1.1em;
     }
+
+}
+
     
   @media only screen and (min-width: 700px){
       h3{
@@ -1233,6 +1249,10 @@ video{
 
     .to-restaurant-video{
         max-width: 700px;
+    }
+
+    li.list-support{
+        padding-left: 10rem;
     }
     
     /* header details for ag */
