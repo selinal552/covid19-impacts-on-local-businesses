@@ -511,6 +511,10 @@ video{
     margin-bottom: 1rem;
 }
 
+#twitter-widget-0{
+    visibility: visible;
+}
+
 /* asian garden restaurant specific css */
 .foo-ag {
     float: left;
