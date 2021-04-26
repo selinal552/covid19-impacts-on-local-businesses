@@ -174,6 +174,7 @@ h1{
 font-size: 3em;
 font-family: 'Cantarell', sans-serif;
 color: rgb(68, 68, 68);
+line-height: 2.5rem;
 }
 
 
@@ -236,7 +237,7 @@ blockquote{
 .cta-section {
     margin: auto;
     line-height: 3em;
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
 }
 
 div.cta-section > h3{
@@ -271,11 +272,10 @@ a:visited .chinatown-button{
     display: none;
 }
 
-
 /* restaurant specific css */
 
 .to-restaurant-video{
-    padding: 2rem;
+    padding: 2.5rem;
     text-align: center;
 }
 
@@ -289,17 +289,27 @@ a:visited .chinatown-button{
 
 .name{
     text-align: left;
-    place-items: center;
-    padding-left: 2%;
+    padding-left: 0.5rem;
+}
+
+div.name h1{
+    line-height: 3rem;
 }
 
 .address{
     text-align: left;
     place-items: left;
-
     font-size: 0.5em;
     background-color: #EE964B;
     
+}
+
+div.address h2{
+    font-size: 3em;
+    font-family: 'Cantarell', sans-serif;
+    color: rgb(68, 68, 68);
+    line-height: 2.5rem;
+    padding-left: 1rem;
 }
 
 .introduction{
@@ -353,15 +363,6 @@ li{
     place-items: center;
 }
 
-/* .rest-support-list{
-    display: flex;
-    flex-direction: row;
-    row-gap: 0.3rem;
-    place-items: center;
-    max-width: 60rem;
-    margin: auto;
-    padding-inline-start: 0;
-*/
 
 .support-button{
     max-width: fit-content;
@@ -372,6 +373,7 @@ li{
     border: 1px solid #f3e7ba;
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
+    margin-bottom: 1rem;
 }
 
 .owner{
@@ -429,12 +431,14 @@ figure.inside-restaurant{
     font-size: 2.5em;
     font-style: italic;
     position: relative;
+    padding: 0 1rem;
 }
 
 .eb-rest-image-caption{
     font-size: 2.5em;
     font-style: italic;
     position: relative;
+    padding: 0 1rem;
 }
 
 .support-AG{
@@ -463,11 +467,13 @@ figure.inside-restaurant{
 .restaurant-image{
     max-width: 100%;
     position: relative;
+    padding: 1rem;
 }
 
 .eb-restaurant-image{
     max-width: 100%;
     position: relative;
+    padding: 1rem;
 }
 
 
@@ -678,6 +684,10 @@ video{
         font-size: 3em;
     }
 
+    div.address h2{
+        padding-top: 1rem;
+    }
+
     div.profile h3{
         font-size: 1.5em;
     }
@@ -692,7 +702,7 @@ video{
 
     .to-restaurant-video{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row-reverse;
     text-align: center;
     place-items: center;
@@ -704,8 +714,6 @@ video{
     color:#083D77;
     font-size: 1.5em;
     font-style: italic;
-    position: relative;
-    left: 40px;
     }
 
     .inside-caption{
@@ -918,14 +926,6 @@ video{
         column-gap: 8rem;
     }
 
-    /*  div.bios{
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-between;
-        column-gap: 8rem;
-    }*/ 
-
     section.selina h1{
         display: flex;
         flex-direction: column;
@@ -1036,6 +1036,18 @@ video{
 
     .restaurant-image{
         max-width: 500px;
+    }
+
+    div.name h1{
+        padding-left: 1.5rem;
+    }
+
+    div.address h2{
+        padding-left: 5rem;
+        font-size: 2.2rem;
+        position: relative;
+        top: 3rem;
+        left: 1rem;
     }
 
     .rest-image-caption{
@@ -1234,6 +1246,19 @@ video{
     }
 
     /* restaurant specific css */
+    div.name h1{
+        padding-left: 9rem;
+    }
+
+    div.address h2{
+        padding-left: 5rem;
+        font-size: 2.2rem;
+        left: 3rem;
+    }
+
+    .address-figure{
+        margin-right: 10rem;
+    }
 
     div.introduction h2{
         font-size: 1.5em;
