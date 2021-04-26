@@ -271,12 +271,6 @@ a:visited .chinatown-button{
     display: none;
 }
 
-.covid-restaurant-image{
-    width: 100%;
-    margin: auto;
-    max-width: 350px;
-    padding: 1rem;
-}
 
 /* restaurant specific css */
 
@@ -670,6 +664,8 @@ video{
         max-width: 100%;
         margin: auto;
     }
+
+    
     
 
     /* restaurant specific media query */
