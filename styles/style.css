@@ -1318,4 +1318,16 @@ video{
 
 }
 
+@media only screen and (min-width: 1300px){
+    .eb-restaurant-image{
+        width: 100%;
+        margin: auto;
+    }
 
+    .restaurant-image{
+        width: 100%;
+        margin: auto;
+    }
+
+
+}
