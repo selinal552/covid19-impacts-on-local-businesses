@@ -913,17 +913,30 @@ video{
 
      /*change to about us*/  
      div.bios{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         column-gap: 8rem;
     }
 
+    /*  div.bios{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 8rem;
+    }*/ 
+
     section.selina h1{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
         font-size: 2em;
     }
 
     section.elyana h1{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
         font-size: 2em;
     }
 
