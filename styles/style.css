@@ -466,7 +466,11 @@ figure.inside-restaurant{
     margin: auto;
     padding: 2.5rem;
     font-size: 0.6em;
-    
+}
+
+a[rel="footnote"] {
+    font-size: 0.5em;
+    vertical-align: super;
 }
 
 .restaurant-image{
@@ -795,6 +799,10 @@ video{
 
   @media only screen and (min-width: 800px){
 
+    h1.front-page-header{
+        line-height: 3rem;
+    }
+
     .homepage-introduction{
         padding: 1rem 5rem;
     }
@@ -814,7 +822,6 @@ video{
     .overview-part-3{
         padding: 1rem 5rem;
     }
-    
 
     .container{
         display: flex;
@@ -959,6 +966,10 @@ video{
 @media only screen and (min-width: 1000px){
 
     /*home page css */
+    h1.front-page-header{
+        line-height: 3.5rem;
+    }
+
     .homepage-introduction{
         padding: 2rem 8.5rem;
     }
