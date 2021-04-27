@@ -405,6 +405,7 @@ a.support-button:hover{
     margin: auto;
     display: block;
     max-width: 100%;
+    width: 400px;
     border: 2px solid #EE964B;
 }
 
@@ -676,7 +677,8 @@ video{
 
     .neighborhood-map{
         display: block;
-        max-width: 100%;
+        width: 100%;
+        max-width: 500px;
         margin: auto;
     }
 
@@ -732,12 +734,20 @@ video{
         color:#083D77;
     }
 
+    figure.inside-restaurant{
+        padding: 1.5rem;
+    }
+
     .inside1{
         width: 100%;
         max-width: 400px;
         margin: auto;
-        padding: 1.5rem;
+        padding: 2rem;
         border: 2px solid #EE964B;
+    }
+
+    .owner{
+        padding: 1.5rem;
     }
 
     .take-out-caption{
@@ -798,7 +808,6 @@ video{
 
 
   @media only screen and (min-width: 800px){
-
     h1.front-page-header{
         line-height: 3rem;
     }
@@ -868,7 +877,9 @@ video{
 
     .neighborhood-map{
         padding: 2rem;
+        max-width: 670px;
     }
+    
 
     /* restaurant specific css */
 
@@ -930,7 +941,6 @@ video{
     }
 
 
-
      /*change to about us*/  
      div.bios{
         display: grid;
@@ -960,8 +970,10 @@ video{
     section.doc-links a:hover{
         border-bottom: 0.5px solid #EE964B;
     }
+  }
 
-}
+   
+
 
 @media only screen and (min-width: 1000px){
 
@@ -1014,6 +1026,11 @@ video{
         padding: 4%;
     }
 
+    .neighborhood-map{
+        padding: 2rem;
+        max-width: 800px;
+    }
+
 
     /* restaurant specific css */
     div.introduction h2{
@@ -1048,6 +1065,7 @@ video{
         display: flex;
         align-items: flex-start;
         flex-direction: row;
+        margin-right: 12rem;
     }
 
     .restaurant-image{
@@ -1145,7 +1163,7 @@ video{
 
     .takeout{
         max-width: 500px;
-        padding: 3%;  
+        padding: 1rem; 
     }
 
     .support-AG{
