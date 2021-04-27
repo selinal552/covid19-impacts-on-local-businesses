@@ -741,6 +741,8 @@ video{
     color:#083D77;
     font-size: 1.5em;
     font-style: italic;
+    background: rgb(219, 218, 218); 
+    padding-right: 0.5rem;
     }
 
     .inside-caption{
@@ -845,6 +847,11 @@ video{
     
     .overview-part-3{
         padding: 1rem 5rem;
+    }
+
+    div.API-Data{
+        padding: 1rem 5rem;
+        font-size: 1.3em;
     }
 
     .container{
