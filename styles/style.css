@@ -363,6 +363,11 @@ li{
     place-items: center;
 }
 
+a.support-button:hover{
+    background-color: #f3ba88;
+    color: rgb(68, 68, 68);
+}
+
 
 .support-button{
     max-width: fit-content;
