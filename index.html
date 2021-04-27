@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <script href="scripts/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="scripts/script.js" defer></script>
     <title>Centering Communities During COVID-19</title>
 </head>
 
@@ -17,7 +19,7 @@
         <ul>
             <li><a class="nav-links centering-com active" href="index.html">Centering Communities During COVID</a></li>
             <li><a class="nav-links" href="aboutus.html">About Us</a></li>
-            <li><a class="nav-links restaurant-link" href="eastboston.html">El Penol</a></li>
+            <li><a class="nav-links restaurant-link" href="eastboston.html">El Peñol</a></li>
             <li><a class="nav-links restaurant-link" href="chinatown.html">Asian Garden</a></li>
         </ul>
   </nav>
@@ -34,6 +36,14 @@
         </div>
         <div class="overview-part-1">
             <p> The pandemic amplified a huge gap between white and minority communities including access to food, economic resources, job opportunities, and education. Because communities of color face more economic insecurity and often work service jobs, they face a greater risk of exposure to the virus, and thus are disproportionately affected by COVID-19. </p>
+        </div>
+        <div class="API-Data">
+            <h4>Confirmed Cases, Deaths, and Vaccinations in Suffolk Country</h4>
+            <div id="cases">Cases: </div>
+            <div id="deaths">Deaths: </div>
+            <div id= "vaccomp">Vaccination Completed: </div>
+            <div id= "date"> Date: </div>
+        </div>   
         </div>
         <div class="stats-set1"> 
             <p> <span>25%</span> of the Boston population is Black, <span>19.8%</span> of the Boston population is Latinx, and <span>52.8%</span> is white. </p>
@@ -58,7 +68,7 @@
             <img class="neighborhood-map" src="assets/map of neighborhood.png">
             <div class="cta"> 
                 <button class="restaurant-button"> <a class="bottom-cta" href="chinatown.html">Asian Garden in Chinatown</a> </button>
-                <button class="restaurant-button"> <a class="bottom-cta" href="eastboston.html">El Penol in East Boston</a> </button>
+                <button class="restaurant-button"> <a class="bottom-cta" href="eastboston.html">El Peñol in East Boston</a> </button>
             </div>
         </div>
     </main>

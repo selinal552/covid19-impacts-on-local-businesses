@@ -233,11 +233,27 @@ blockquote{
     line-height: 3em;
 }
 
+.API-Data{
+    font-size: 1.1em;
+    font-family: 'Oxygen', sans-serif;
+    color: #083D77;
+    text-align: left;
+    place-items: center;
+    padding: 2rem 3.5rem;
+    margin: auto;
+}
+
+div.API-Data h4{
+    font-size: 1.1em;
+    font-family: 'Oxygen', sans-serif;
+    color: #083D77;
+}
 
 .cta-section {
     margin: auto;
     line-height: 3em;
     margin-bottom: 2rem;
+
 }
 
 div.cta-section > h3{
@@ -819,11 +835,11 @@ video{
     .overview-part-1{
         padding: 1rem 5rem;
     }
-    
+
     .stats-set1{
         padding: 1rem 5rem;
     }
-    
+
     .overview-part-2{
         padding: 1rem 5rem;
     }
@@ -991,6 +1007,10 @@ video{
     }
     
     .stats-set1{
+        padding: 2rem 8.5rem;
+    }
+
+    div.API-Data{
         padding: 2rem 8.5rem;
     }
     
@@ -1207,8 +1227,8 @@ video{
         background-color:#ee974bb6;
         position: relative;
         left: 35rem;
-        transform: rotate(45deg);
-    
+        transform: rotate(45deg); 
+}
 }
 
 
@@ -1230,6 +1250,12 @@ video{
     .stats-set1{
         padding: 3.5rem 10rem;
         line-height: 2.5rem;
+    }
+
+    div.API-Data{
+        padding: 3.5rem 10rem;
+        line-height: 2.5rem;
+        font-size: 1.4em;
     }
     
     .overview-part-2{
@@ -1277,6 +1303,7 @@ video{
 
     .neighborhood-map{
         padding: 3rem;
+        max-width: 1200px;
     }
 
     /* restaurant specific css */
