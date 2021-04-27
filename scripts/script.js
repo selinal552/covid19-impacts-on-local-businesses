@@ -41,7 +41,9 @@ function reqListener () {
 function getTime(){
     let [month, date, year]= new Date().toLocaleDateString("en-US").split("/");
     $("#date").append("<b>" + month+"-"+date+"-"+year+ "</b>");
-    console.log(month,date,year);   
+    let [hour, minute, second] = new Date().toLocaleTimeString("en-US").split(/:| /);
+    $("#date").append("<b>" + hour+":"+minute+":"+second+ "</b>");
+    console.log(month,date,year,hour, minute, second);   
  }
     
     
