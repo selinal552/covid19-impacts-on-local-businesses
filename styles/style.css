@@ -758,7 +758,6 @@ video{
         width: 100%;
         max-width: 400px;
         margin: auto;
-        padding: 2rem;
         border: 2px solid #EE964B;
     }
 
@@ -908,12 +907,8 @@ video{
     }
     
     
-     p.video-description{
-        color:#083D77;;
-        font-size: 2em;
-        font-style: italic;
-        background-color:  rgb(219, 218, 218);
-        }
+     
+    
 
     .introduction{
         padding: 0rem 4rem;
@@ -1133,6 +1128,8 @@ video{
         font-style: italic;
         position: relative;
         font-size: 2em;
+        background: rgb(219, 218, 218); 
+        padding-right: 0.8rem;
         }
 
     .introduction{
@@ -1159,11 +1156,12 @@ video{
     }
 
     .to-restaurant-video{
-        max-width: 500x;
-        }
+        max-width: 500px;
+     }
 
     .inside1{
         max-width: 550px;
+        padding: 1rem;
     }
 
     .inside-caption{
@@ -1342,7 +1340,7 @@ video{
     }
 
     .inside1{
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .profile{
@@ -1354,7 +1352,7 @@ video{
     }
 
     .to-restaurant-video{
-        max-width: 700px;
+        max-width: 500px;
     }
 
     li.list-support{
