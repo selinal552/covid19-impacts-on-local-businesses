@@ -77,7 +77,7 @@ h1.front-page-header{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background:  #083e77a2;
+    background: #ADA79B;
     position: relative;
 }
 
@@ -90,7 +90,7 @@ h1.front-page-header{
     width: 50px;
     height: 10px;
     position: relative;
-    background:  #d66401;
+    background:  #ADA79B
 }
 
 /*navigation bar */
@@ -116,7 +116,7 @@ nav ul {
 
   a.active{
     border-bottom: 1px solid rgba(68, 68, 68, 0.507);
-}
+    }  
 
   a.restaurant-link{
     text-decoration: none; color:rgb(68, 68, 68)}
@@ -315,14 +315,14 @@ div.name h1{
     text-align: left;
     place-items: left;
     font-size: 0.5em;
-    background-color: #EE964B;
+    background-color: #D5D0C6;
     
 }
 
 div.address h2{
     font-size: 3em;
     font-family: 'Cantarell', sans-serif;
-    color: rgb(68, 68, 68);
+    color: #000000;
     line-height: 2.5rem;
     padding-left: 1rem;
 }
@@ -359,7 +359,7 @@ div.address h2{
 li{
     font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
-    color: #083D77;
+    color: #000000;
     padding: 3rem;
     list-style: none;
 }
@@ -379,7 +379,7 @@ li{
 }
 
 a.support-button:hover{
-    background-color: #f3ba88;
+    background-color: #D5D0C6;
     color: rgb(68, 68, 68);
 }
 
@@ -387,10 +387,10 @@ a.support-button:hover{
 .support-button{
     max-width: fit-content;
     height: fit-content;
-    background-color: #f95538a2;
+    background-color: #ADA79B;
     padding: 1rem;
     border-radius: 10px;
-    border: 1px solid #f3e7ba;
+    border: 1px solid #f3e7ba00;
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
     margin-bottom: 1rem;
@@ -413,7 +413,7 @@ a.support-button:hover{
     margin: 0 auto;
     display: block;
     width: 100%;
-    border: 2px solid #EE964B;
+    border: 2px solid #ADA79B;
 }
 
 .takeout{
@@ -421,7 +421,7 @@ a.support-button:hover{
     display: block;
     max-width: 100%;
     width: 400px;
-    border: 2px solid #EE964B;
+    border: 2px solid #ADA79B;
 }
 
 .takeout-block{
@@ -429,7 +429,7 @@ a.support-button:hover{
 }
 
 figure{
-    padding: 5%;
+    padding: 1rem;
     font-size: 0.7em;
     font-family: 'Oxygen', sans-serif;
     color: rgb(68, 68, 68);
@@ -462,18 +462,8 @@ figure.inside-restaurant{
     padding: 0 1rem;
 }
 
-.support-AG{
-    font-size: 1em;
-    font-family: 'Oxygen', sans-serif;
-    background-color: #F4D35E;
-    padding: 5%;
-    margin-bottom: 3%;
-    border-radius: 10px;
-    border: 1px solid #f3e7ba;
-  }
-
   .blue {
-    background: #d66401;
+    background: #ADA79B;
   }
 
   .poc-statistics{
@@ -517,7 +507,7 @@ a[rel="footnote"] {
 .inside-caption{
     display: block;
     font-size: 1.2em;
-    color: #083D77;
+    color: #000000;
 }
 
 .list-support{
@@ -559,22 +549,12 @@ video{
 
 /* el pelon specific css */
 
-.helpEB{
-    font-size: 1em;
-    font-family: 'Oxygen', sans-serif;
-    background-color: #F4D35E;
-    padding: 1%;
-    border-radius: 10px;
-    border: 1px solid #f3e7ba;
-  }
-
-
   .foo-eb {
     float: left;
     width: 300px;
     height: 5px;
     border: 1px solid rgba(0, 0, 0, 0);
-    padding-bottom: 2%;
+    padding-bottom: 1em;
   }
 
 /* about us specific css */
@@ -590,7 +570,7 @@ video{
   .block{
     width: 200px;
     padding-bottom: 2%;
-    background: #d66401;
+    background: #ADA79B;
   }
 
   .profile-pic{
@@ -602,7 +582,7 @@ video{
     justify-content: center;
     width: 100%;
     margin: auto;
-    border: 2px solid #EE964B;
+    border: 3px solid #D5D0C6;
   }
 
   .elyana-image{
@@ -610,7 +590,7 @@ video{
     justify-content: center;
     width: 100%;
     margin: auto;
-    border: 2px solid #EE964B;
+    border: 3px solid #D5D0C6;
   }
 
   main.aboutus-main{
@@ -625,11 +605,11 @@ video{
       font-size: 1.3em;
       line-height: 2rem;
       font-family: 'Cantarell', sans-serif;
-      color: #083D77;
+      color: #000000;
   }
 
   section.doc-links a:hover{
-      border-bottom: 0.5px solid #EE964B
+      border-bottom: 0.5px solid #ADA79B
   }
 
   section.doc-links{
@@ -746,10 +726,10 @@ video{
     }
 
     p.video-description{
-    color:#083D77;
+    color:#000000;
     font-size: 1.5em;
     font-style: italic;
-    background: rgb(219, 218, 218); 
+    background: #D5D0C6; 
     padding-right: 0.5rem;
     }
 
@@ -757,7 +737,7 @@ video{
         position: relative;
         font-size: 1.4em;
         font-style: italic;
-        color:#083D77;
+        color:#000000;;
     }
 
     figure.inside-restaurant{
@@ -768,7 +748,7 @@ video{
         width: 100%;
         max-width: 400px;
         margin: auto;
-        border: 2px solid #EE964B;
+        border: 2px solid #ADA79B;
     }
 
     .owner{
@@ -778,7 +758,7 @@ video{
     .take-out-caption{
         font-size: 1.4em;
         font-style: italic;
-        color:#083D77;
+        color:#000000;
     }
 
     .takeout-block{
@@ -952,12 +932,12 @@ video{
         font-size: 2em;
         position: relative;
         right: 150px;
-        background-color: rgb(219, 218, 218);
+        background-color: #D5D0C6;
     }
 
     figcaption{
         font-size: 2em;
-        color: #083D77;
+        color: #000000;
     }
 
     .poc-statistics{
@@ -996,7 +976,7 @@ video{
     }
   
     section.doc-links a:hover{
-        border-bottom: 0.5px solid #EE964B;
+        border-bottom: 0.5px solid #D5D0C6;
     }
   }
 
@@ -1120,7 +1100,7 @@ video{
 
     .rest-image-caption{
         font-size: 3.5em;
-        color:#083D77;
+        color:#000000;
     }
     
     .restaurant-arrow{
@@ -1135,7 +1115,7 @@ video{
 
     .eb-rest-image-caption{
         font-size: 3.5em;
-        color:#083D77;
+        color:#000000;
     }
 
     .restaurant-arrow-ag{
@@ -1143,11 +1123,11 @@ video{
     }
 
     p.video-description{
-        color:#083D77;
+        color:#000000;
         font-style: italic;
         position: relative;
         font-size: 2em;
-        background: rgb(219, 218, 218); 
+        background: #D5D0C6; 
         padding-right: 0.8rem;
         }
 
@@ -1202,16 +1182,7 @@ video{
         max-width: 500px;
         padding: 1rem; 
     }
-
-    .support-AG{
-        font-size: 1em;
-        font-family: 'Oxygen', sans-serif;
-        background-color: #F4D35E;
-        padding: 3%;
-        border-radius: 10px;
-        border: 1px solid #f3e7ba;
-      }
-
+    
       /* about us css */
       section.selina p{
         font-size: 1.2em;
@@ -1241,7 +1212,7 @@ video{
         display: inline-block;
         width: 5px;
         height: 300px;
-        background-color:#ee974bb6;
+        background-color:#D5D0C6;
         position: relative;
         left: 35rem;
         transform: rotate(45deg); 
@@ -1386,7 +1357,7 @@ video{
 
     .eb-rest-image-caption{
         font-size: 3.5em;
-        color:#083D77;
+        color:black;
     }
 
 
@@ -1394,7 +1365,7 @@ video{
 
     .rest-image-caption{
         font-size: 3.5em;
-        color:#083D77;
+        color:#000000;
     }   
 
     .restaurant-image{
