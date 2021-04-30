@@ -133,7 +133,7 @@ nav ul {
 }
 
 span{
-  color: #ADA79B;
+  color: #837E75;
 }
 
 .homepage-introduction{
@@ -174,7 +174,7 @@ span{
     h1{
     font-size: 3em;
     font-family: 'Cantarell', sans-serif;
-    color: #1D1D1B;
+    color: #34322D;
     line-height: 2.5rem;
     }
     
@@ -183,26 +183,26 @@ span{
     font-size: 1.3em;
     font-family: 'Cantarell', sans-serif;
     font-weight: bold;
-    color: #000000;
+    color: #34322D;
     }
     
     h3{
     font-size: 1.3em;
     font-family: 'Cantarell', sans-serif;
     font-weight: bold;
-    color: #000000;
+    color: #34322D;
     }
     
     h4{
     font-size: 1.8em;
     font-family: 'Cantarell', sans-serif;
-    color: #000000;
+    color: #34322D;
     }
     
     p{
     font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
-    color: #000000;
+    color: #5F5B54;
     }
     
 
@@ -276,10 +276,11 @@ a:visited .chinatown-button{
 .restaurant-button{
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
-    background-color: #ADA79B;
+    background-color: #ada79b9a;
+    color: #34322D;
     padding: 3%;
     border-radius: 10px;
-    border: 1px solid #f3e7ba;
+    border: 1px solid #f3e7ba00;
 }
 
 .restaurant-button:hover{
@@ -312,20 +313,20 @@ a:visited .chinatown-button{
 
 div.name h1{
     line-height: 3rem;
+    color: #34322D;
 }
 
 .address{
     text-align: left;
     place-items: left;
     font-size: 0.5em;
-    background-color: #D5D0C6;
-    
+    background-color: #D5D0C6; 
 }
 
 div.address h2{
     font-size: 3em;
     font-family: 'Cantarell', sans-serif;
-    color: #000000;
+    color: #5F5B54;
     line-height: 2.5rem;
     padding-left: 1rem;
 }
@@ -390,7 +391,8 @@ a.support-button:hover{
 .support-button{
     max-width: fit-content;
     height: fit-content;
-    background-color: #ADA79B;
+    background-color: #ada79b9a;
+    color: #34322D;
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid #f3e7ba00;
@@ -403,7 +405,6 @@ a.support-button:hover{
    margin: 0 auto;
    display: block;
    max-width: 100%;
-
 }
 
 .elpelon-owner{
@@ -482,12 +483,6 @@ a[rel="footnote"] {
     vertical-align: super;
 }
 
-.restaurant-image{
-    max-width: 100%;
-    position: relative;
-    padding: 1rem;
-}
-
 .eb-restaurant-image{
     max-width: 100%;
     position: relative;
@@ -510,7 +505,7 @@ a[rel="footnote"] {
 .inside-caption{
     display: block;
     font-size: 1.2em;
-    color: #000000;
+    color: #34322D;
 }
 
 .list-support{
@@ -765,7 +760,7 @@ video{
     }
 
     p.video-description{
-    color:#000000;
+    color:#34322D;
     font-size: 1.5em;
     font-style: italic;
     background: #D5D0C6; 
@@ -776,7 +771,7 @@ video{
         position: relative;
         font-size: 1.4em;
         font-style: italic;
-        color:#000000;;
+        color:#34322D;
     }
 
     figure.inside-restaurant{
@@ -797,7 +792,7 @@ video{
     .take-out-caption{
         font-size: 1.4em;
         font-style: italic;
-        color:#000000;
+        color:#34322D;
     }
 
     .takeout-block{
@@ -979,7 +974,7 @@ video{
 
     figcaption{
         font-size: 2em;
-        color: #000000;
+        color: #34322D;
     }
 
     .poc-statistics{
@@ -1124,10 +1119,6 @@ video{
         margin-right: 12rem;
     }
 
-    .restaurant-image{
-        max-width: 500px;
-    }
-
     div.name h1{
         padding-left: 1.5rem;
     }
@@ -1142,7 +1133,7 @@ video{
 
     .rest-image-caption{
         font-size: 3.5em;
-        color:#000000;
+        color:#34322D;
     }
     
     .restaurant-arrow{
@@ -1158,7 +1149,7 @@ video{
 
     .eb-rest-image-caption{
         font-size: 3.5em;
-        color:#000000;
+        color:#34322D;
     }
 
     .restaurant-arrow-ag{
@@ -1166,7 +1157,7 @@ video{
     }
 
     p.video-description{
-        color:#000000;
+        color:#34322D;
         font-style: italic;
         position: relative;
         font-size: 2em;
@@ -1398,7 +1389,7 @@ video{
 
     .eb-rest-image-caption{
         font-size: 3.5em;
-        color:black;
+        color:#34322D;
     }
 
 
@@ -1406,12 +1397,8 @@ video{
 
     .rest-image-caption{
         font-size: 3.5em;
-        color:#000000;
+        color:#34322D;
     }   
-
-    .restaurant-image{
-        max-width: 600px;
-    }
 
     .inside-caption{
     font-size: 3em;
@@ -1439,10 +1426,6 @@ video{
         margin: auto;
     }
 
-    .restaurant-image{
-        width: 100%;
-        margin: auto;
-    }
 
 
 }
