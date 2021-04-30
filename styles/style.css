@@ -7,9 +7,9 @@
   box-sizing: border-box;
 }
 
-a:link { text-decoration: none; color:rgb(68, 68, 68)}
+a:link { text-decoration: none; color:#000000}
 a:visited { text-decoration: none; color:rgb(68, 68, 68);}
-a:hover { text-decoration: none; color:#d66401;}
+a:hover { text-decoration: none; color:#D5D0C6}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
 /* universal + home page css */
 
@@ -29,7 +29,7 @@ a:active { text-decoration: none; color:rgb(68, 68, 68);}
 
 
 body{
-    background-color: #EBEBD3;
+    background-color: #f5eedf;
 }
 
 h1.front-page-header{
@@ -47,7 +47,7 @@ h1.front-page-header{
 .container{
     text-align: left;
     place-items: center;
-    padding-left: 2.5rem;
+    padding-left: 2rem;
 }
 
 /*decorative elements*/
@@ -55,7 +55,7 @@ h1.front-page-header{
 .orange-line1{
     width: 200px;
     padding-bottom: 1rem;
-    background:  #d66401;
+    background:  #ADA79B;
     position: relative;
     bottom: 1.5rem;
     left: 0.5rem;
@@ -65,12 +65,11 @@ h1.front-page-header{
 .horizontal-line1{
     height: 5px;
     width: 200px;
-    background:  #d66401;
+    background:  #ADA79B;
     position: relative;
     transform:rotate(90deg);
     bottom: 1rem;
-    right: 8rem;
-   
+    right: 8rem;  
 }
 
 .circle{
@@ -120,20 +119,19 @@ nav ul {
 }
 
   a.restaurant-link{
-    text-decoration: none; color:#083D77}
-  a.restaurant-link:hover { text-decoration: none; color:#d66401;}
+    text-decoration: none; color:rgb(68, 68, 68)}
+  a.restaurant-link:hover { text-decoration: none; color:#D5D0C6}
 
   a.bottom-cta:hover { text-decoration: none; color:rgb(68, 68, 68);}
   
 
-  .header-span{
-      color: #083D77;
-  }
-
-span{
-    color: #d66401;
+.header-span{
+    color: #1D1D1B
 }
 
+span{
+  color: #ADA79B;
+}
 
 .homepage-introduction{
     text-align: left;
@@ -170,39 +168,40 @@ span{
     padding: 2rem 3.5rem;
 }
 
-h1{
-font-size: 3em;
-font-family: 'Cantarell', sans-serif;
-color: rgb(68, 68, 68);
-line-height: 2.5rem;
-}
-
-
-h2{
-font-size: 1.3em;
-font-family: 'Cantarell', sans-serif;
-font-weight: bold;
-color: #083D77;
-}
-
-h3{
-font-size: 1.3em;
-font-family: 'Cantarell', sans-serif;
-font-weight: bold;
-color: #083D77;
-}
-
-h4{
-font-size: 1.8em;
-font-family: 'Cantarell', sans-serif;
-color: #d66401;
-}
-
-p{
-font-size: 1.1em;
-font-family: 'Oxygen', sans-serif;
-color: #083D77;
-}
+    h1{
+    font-size: 3em;
+    font-family: 'Cantarell', sans-serif;
+    color: #1D1D1B;
+    line-height: 2.5rem;
+    }
+    
+    
+    h2{
+    font-size: 1.3em;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    }
+    
+    h3{
+    font-size: 1.3em;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    }
+    
+    h4{
+    font-size: 1.8em;
+    font-family: 'Cantarell', sans-serif;
+    color: #000000;
+    }
+    
+    p{
+    font-size: 1.1em;
+    font-family: 'Oxygen', sans-serif;
+    color: #000000;
+    }
+    
 
 
 blockquote{
@@ -236,7 +235,7 @@ blockquote{
 .API-Data{
     font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
-    color: #083D77;
+    color: #000000;
     text-align: left;
     place-items: center;
     padding: 2rem 3.5rem;
@@ -246,7 +245,7 @@ blockquote{
 div.API-Data h4{
     font-size: 1.1em;
     font-family: 'Oxygen', sans-serif;
-    color: #083D77;
+    color:#000000;
 }
 
 .cta-section {
@@ -274,14 +273,14 @@ a:visited .chinatown-button{
 .restaurant-button{
     font-size: 1em;
     font-family: 'Oxygen', sans-serif;
-    background-color: #f95538a2;
+    background-color: #ADA79B;
     padding: 3%;
     border-radius: 10px;
     border: 1px solid #f3e7ba;
 }
 
 .restaurant-button:hover{
-    background-color: #f3ba88;
+    background-color: #D5D0C6;
 }
 
 .neighborhood-map{
@@ -663,6 +662,15 @@ video{
   }
 
   @media only screen and (min-width: 600px) {
+    
+    .container{
+        padding-top: 1rem;
+    }
+
+    .header-image{
+        max-width: 550px;
+    }
+
     p{
         font-size: 1.2em;
        }
@@ -694,7 +702,7 @@ video{
     .neighborhood-map{
         display: block;
         width: 100%;
-        max-width: 500px;
+        max-width: 550px;
         margin: auto;
     }
 
@@ -826,7 +834,9 @@ video{
 
   @media only screen and (min-width: 800px){
     h1.front-page-header{
-        line-height: 3rem;
+        font-size: 2.5em;
+        max-width: 100%;
+        line-height: 4rem;
     }
 
     .homepage-introduction{
@@ -856,21 +866,21 @@ video{
 
     .container{
         display: flex;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+    
     }
+    
 
     .header-image{
         max-width: 450px;
+        padding-left: 1rem;
     }
     
     nav ul {
         padding: 3%;
         font-family: 'Oxygen', sans-serif; 
         font-size: 0.9em;
-    }
-
-    h1.front-page-header{
-     font-size: 3.3em;
-     max-width: 100%;
     }
 
     h2{
@@ -1004,6 +1014,7 @@ video{
         padding: 2rem 8.5rem;
     }
     
+
     .overview-part-1{
         padding: 2rem 8.5rem;
     }
@@ -1027,11 +1038,12 @@ video{
 
     .container{
         padding-top: 2rem;
+        padding-bottom: 2rem;
         display: flex;
     }
 
     .header-image{
-        max-width: 500px;
+        max-width: 550px;
     }
 
     h2{
