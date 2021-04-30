@@ -93,7 +93,14 @@ h1.front-page-header{
     width: 50px;
     height: 10px;
     position: relative;
-    background:  #ADA79B
+}
+
+.ag{
+    background:  #003F87;
+}
+
+.eb{
+    background: #7C3136;
 }
 
 /*navigation bar */
@@ -306,14 +313,25 @@ a:visited .chinatown-button{
     display: none;
 }
 
-.name{
+.nameAG{
     text-align: left;
     padding-left: 0.5rem;
 }
 
-div.name h1{
+.nameEP{
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+div.nameAG h1{
     line-height: 3rem;
-    color: #34322D;
+    color: #003F87;
+}
+
+
+div.nameEP h1{
+    line-height: 3rem;
+    color: #7C3136;
 }
 
 .address{
@@ -350,6 +368,14 @@ div.address h2{
     place-items: center;
     margin: auto;
     padding: 1rem 3rem;
+}
+
+div.ep-color h3{
+    color: #7C3136;
+}
+
+div.ag-color h3{
+    color: #003F87;
 }
 
 .impact{
@@ -534,6 +560,7 @@ video{
 
 
 #fb-share-button {
+    font-family: Arial, Helvetica, sans-serif;
     background: #3b5998;
     border-radius: 3px;
     font-weight: 600;
@@ -1119,9 +1146,14 @@ video{
         margin-right: 12rem;
     }
 
-    div.name h1{
+    div.nameAG h1{
         padding-left: 1.5rem;
     }
+
+    div.nameEP h1{
+        padding-left: 1.5rem;
+    }
+
 
     div.address h2{
         padding-left: 5rem;
@@ -1327,7 +1359,11 @@ video{
     }
 
     /* restaurant specific css */
-    div.name h1{
+    div.nameEP h1{
+        padding-left: 9rem;
+    }
+
+    div.nameAG h1{
         padding-left: 9rem;
     }
 
