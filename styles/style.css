@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); 
 
-:root {
-  --background: #1e90ff; /**/
-  --maintext: #000000;
-  --lightertext: #111111;
-  
-}
-
 
 *,
 *::before,
@@ -17,7 +10,7 @@
 
 
 
-a:link { text-decoration: none; color:var(--maintext)}
+a:link { text-decoration: none; color:rgb(68, 68, 68)}
 a:visited { text-decoration: none; color:rgb(68, 68, 68);}
 a:hover { text-decoration: none; color:#D5D0C6}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
