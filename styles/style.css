@@ -114,7 +114,7 @@ nav ul {
       text-align: center;
   }
 
-  a.active{
+  a.nav-links.active{
     border-bottom: 1px solid rgba(68, 68, 68, 0.507);
     }  
 
@@ -531,6 +531,12 @@ video{
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
+}
+
+.fb-share-button{
+    background:#43619c;
+    border-radius: 1rem;
+    padding: 0.8rem;
 }
 
 #twitter-widget-0{
