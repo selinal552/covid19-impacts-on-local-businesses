@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap'); 
 
+:root {
+  --background: #1e90ff; /**/
+  --maintext: #000000;
+  --lightertext: #111111;
+  
+}
+
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-a:link { text-decoration: none; color:#000000}
+
+
+a:link { text-decoration: none; color:var(--maintext)}
 a:visited { text-decoration: none; color:rgb(68, 68, 68);}
 a:hover { text-decoration: none; color:#D5D0C6}
 a:active { text-decoration: none; color:rgb(68, 68, 68);}
@@ -517,7 +527,7 @@ a[rel="footnote"] {
 
 .address-figure{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column-reverse;
 }
 
@@ -525,6 +535,7 @@ video{
     max-height: min-content;
     max-width: 100%;
     margin-top: 0.8rem;
+    border: 2px solid #ADA79B;
 }
 
 .social-media-buttons{
@@ -533,11 +544,35 @@ video{
     margin-bottom: 1rem;
 }
 
-.fb-share-button{
-    background:#43619c;
-    border-radius: 1rem;
-    padding: 0.8rem;
+
+#fb-share-button {
+    background: #3b5998;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 5px 8px;
+    display: inline-block;
+    position: static;
 }
+
+#fb-share-button:hover {
+    cursor: pointer;
+    background: #213A6F
+}
+
+#fb-share-button svg {
+    width: 18px;
+    fill: white;
+    vertical-align: middle;
+    border-radius: 2px
+}
+
+#fb-share-button span {
+    vertical-align: middle;
+    color: white;
+    font-size: 14px;
+    padding: 0 3px
+}
+
 
 #twitter-widget-0{
     visibility: visible;
@@ -705,6 +740,11 @@ video{
         font-size: 3em;
     }
 
+    .eb-restaurant-image{
+        max-width: 500px;
+        width: 100%;
+    }
+
     div.address h2{
         padding-top: 1rem;
     }
@@ -803,6 +843,11 @@ video{
       /* restaurant css */
       .inside1{
         max-width: 400px;
+    }
+
+    .eb-restaurant-image{
+        width: 100%;
+        margin: auto 0;
     }
 
     /* about us css */
@@ -909,8 +954,6 @@ video{
         font-size: 1.3em;
     }
     
-    
-     
     
 
     .introduction{
@@ -1116,7 +1159,8 @@ video{
     }
 
     .eb-restaurant-image{
-        max-width: 500px;
+        max-width: 1000px;
+        width: 100%;
     }
 
     .eb-rest-image-caption{
@@ -1169,20 +1213,18 @@ video{
         padding: 1rem;
     }
 
+    video{
+        padding: 1rem;
+    }
+
     .inside-caption{
         font-size: 2.5em;
         bottom: 200px;
     }
 
-    .owner{
-        max-width: 500px;
-    }
-
     .elpelon-owner{
         max-width: 400px;
     }
-
-
 
     .takeout{
         max-width: 500px;
