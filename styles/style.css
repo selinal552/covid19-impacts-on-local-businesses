@@ -371,6 +371,14 @@ div.address h2{
     padding: 1rem 3rem;
 }
 
+span.ep-color{
+    color: #7C3136;
+}
+
+span.ag-color{
+    color: #003F87;
+}
+
 div.ep-color h3{
     color: #7C3136;
 }
