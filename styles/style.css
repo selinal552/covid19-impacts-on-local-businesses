@@ -148,20 +148,20 @@ span{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 4rem;
+    padding: 3rem 3rem 1rem 3rem;
 }
 
 .overview-part-1{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 2rem 3.5rem;
+    padding: 1rem 3rem;
 }
 
 .stats-set1{
     text-align: left;
     place-items: center;
-    padding: 2rem 3.5rem;
+    padding: 1rem 3rem;
     margin: auto;
 }
 
@@ -169,14 +169,14 @@ span{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 2rem 3.5rem;
+    padding: 1rem 3rem;
 }
 
 .overview-part-3{
     text-align: left;
     place-items: center;
     margin: auto;
-    padding: 2rem 3.5rem;
+    padding: 1rem 3rem;
 }
 
     h1{
@@ -249,7 +249,7 @@ blockquote{
     color: #000000;
     text-align: left;
     place-items: center;
-    padding: 2rem 3.5rem;
+    padding: 1rem 3rem 2rem 3rem;
     margin: auto;
 }
 
@@ -915,7 +915,7 @@ video{
     }
 
     div.API-Data{
-        padding: 1rem 5rem;
+        padding: 0 5rem 2rem 5rem;
         font-size: 1.3em;
     }
 
