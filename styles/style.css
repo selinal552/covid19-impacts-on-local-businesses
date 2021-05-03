@@ -272,9 +272,11 @@ div.cta-section > h3{
 
 .cta {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     margin: auto;
     margin-top: 5%;
+    place-items: center;
 }
 
 a:visited .chinatown-button{
@@ -286,7 +288,8 @@ a:visited .chinatown-button{
     font-family: 'Oxygen', sans-serif;
     background-color: #ada79b9a;
     color: #34322D;
-    padding: 3%;
+    padding: 1rem;
+    margin-top: 1rem;
     border-radius: 10px;
     border: 1px solid #f3e7ba00;
 }
@@ -674,7 +677,7 @@ video{
   }
 
   section.doc-links a:hover{
-      border-bottom: 0.5px solid #ADA79B
+      border-bottom: 1px solid #ADA79B
   }
 
   section.doc-links{
@@ -742,6 +745,11 @@ video{
         padding: 2%;
         margin-inline-start: 2rem;
         margin-inline-end: 2rem;
+        }
+
+    .cta {
+        display: flex;
+        flex-direction: row;
         }
 
     .neighborhood-map{
@@ -1111,6 +1119,11 @@ video{
         padding-top: 3rem;
         font-size: 1.2em;
         padding: 4%;
+    }
+
+    .restaurant-button{
+        padding: 1rem;
+        margin-top: 0rem;
     }
 
     .neighborhood-map{
